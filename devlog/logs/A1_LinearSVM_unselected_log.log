@@ -1,0 +1,177 @@
+Wed, 16 Dec 2020 22:31:43 main.py[line:40] INFO *****************************************
+Wed, 16 Dec 2020 22:31:43 main.py[line:41] INFO **********[Main program starts]**********
+Wed, 16 Dec 2020 22:31:43 main.py[line:42] INFO *****************************************
+
+Wed, 16 Dec 2020 22:31:43 main.py[line:48] INFO **********[Task A1 starts]**********
+Wed, 16 Dec 2020 22:31:43 helper.py[line:332] INFO ==========[Data Preparation starts]==========
+Wed, 16 Dec 2020 22:31:43 helper.py[line:340] INFO Data have been collected from /Users/friedrich/Projects/GitHub/AMLS_assignment20_21/AMLS_20-21_SN20043715/A1/A1_dataset.csv.
+Wed, 16 Dec 2020 22:31:43 helper.py[line:341] INFO ==========[Data Preparation ends]==========
+Wed, 16 Dec 2020 22:31:43 helper.py[line:382] INFO ==========[Model training starts]==========
+Wed, 16 Dec 2020 22:31:43 helper.py[line:383] INFO [Task]: A1
+Wed, 16 Dec 2020 22:31:43 helper.py[line:384] INFO [Model]: LinearSVM
+Wed, 16 Dec 2020 22:31:43 helper.py[line:397] INFO [Model]: No model has been found for this task.
+Wed, 16 Dec 2020 22:31:43 helper.py[line:398] INFO Starting to train a new one...
+Wed, 16 Dec 2020 22:32:08 helper.py[line:450] INFO ====================
+Wed, 16 Dec 2020 22:32:08 helper.py[line:453] INFO [Best Parameters]: {'linearsvc__C': 0.1}
+Wed, 16 Dec 2020 22:32:08 helper.py[line:454] INFO [Best Test Score]: 0.9204832492811132
+Wed, 16 Dec 2020 22:32:08 helper.py[line:456] INFO [Best Training Score]: 0.9353383456593743
+Wed, 16 Dec 2020 22:32:08 helper.py[line:485] INFO [Execution time]: 00:00:24
+Wed, 16 Dec 2020 22:32:08 helper.py[line:486] INFO ==========[Model training ends]==========
+Wed, 16 Dec 2020 22:32:08 main.py[line:65] INFO **********[Task A1 ends]**********
+Wed, 16 Dec 2020 22:32:08 main.py[line:66] INFO ***********************************
+Wed, 16 Dec 2020 22:32:08 main.py[line:135] INFO [Total execution time]: 00:00:24
+Wed, 16 Dec 2020 22:32:08 main.py[line:137] INFO *****************************************
+Wed, 16 Dec 2020 22:32:08 main.py[line:138] INFO ***********[Main program ends]***********
+Wed, 16 Dec 2020 22:32:08 main.py[line:139] INFO *****************************************
+
+source /Users/friedrich/opt/anaconda3/bin/activate
+conda activate mls_lab
+/Users/friedrich/opt/anaconda3/envs/mls_lab/bin/python /Users/friedrich/Projects/GitHub/AMLS_assignment20_21/AMLS_20-21_SN20043715/main.py                                          
+(base) 
+# friedrich @ Friedrich-MBP in ~/Projects/GitHub/AMLS_assignment20_21/AMLS_20-21_SN20043715 on git:master x [22:31:23] 
+$ source /Users/friedrich/opt/anaconda3/bin/activate
+(base) 
+# friedrich @ Friedrich-MBP in ~/Projects/GitHub/AMLS_assignment20_21/AMLS_20-21_SN20043715 on git:master x [22:31:23] 
+$ conda activate mls_lab
+(mls_lab) 
+# friedrich @ Friedrich-MBP in ~/Projects/GitHub/AMLS_assignment20_21/AMLS_20-21_SN20043715 on git:master x [22:31:24] 
+$ /Users/friedrich/opt/anaconda3/envs/mls_lab/bin/python /Users/friedrich/Projects/GitHub/AMLS_assignment20_21/AMLS_20-21_SN20043715/main.py
+Using TensorFlow backend.
+Fitting 5 folds for each of 4 candidates, totalling 20 fits
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 8 concurrent workers.
+[CV] linearsvc__C=0.1 ................................................
+[CV] linearsvc__C=0.1 ................................................
+[CV] linearsvc__C=0.1 ................................................
+[CV] linearsvc__C=0.1 ................................................
+[CV] linearsvc__C=1 ..................................................
+[CV] linearsvc__C=0.1 ................................................
+[CV] linearsvc__C=1 ..................................................
+[CV] linearsvc__C=1 ..................................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/utils/validation.py:72: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  return f(**kwargs)
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/utils/validation.py:72: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  return f(**kwargs)
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/utils/validation.py:72: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  return f(**kwargs)
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/utils/validation.py:72: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  return f(**kwargs)
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/utils/validation.py:72: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  return f(**kwargs)
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/utils/validation.py:72: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  return f(**kwargs)
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/utils/validation.py:72: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  return f(**kwargs)
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/utils/validation.py:72: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  return f(**kwargs)
+[CV]  linearsvc__C=0.1, score=(train=0.939, test=0.928), total=   2.5s
+[Parallel(n_jobs=-1)]: Done   1 tasks      | elapsed:    5.2s
+[CV] linearsvc__C=1 ..................................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/utils/validation.py:72: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  return f(**kwargs)
+[CV]  linearsvc__C=0.1, score=(train=0.931, test=0.916), total=   3.2s
+[Parallel(n_jobs=-1)]: Done   2 tasks      | elapsed:    5.9s
+[CV] linearsvc__C=1 ..................................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/utils/validation.py:72: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  return f(**kwargs)
+[CV]  linearsvc__C=0.1, score=(train=0.936, test=0.917), total=   3.4s
+[Parallel(n_jobs=-1)]: Done   3 tasks      | elapsed:    6.1s
+[CV] linearsvc__C=10 .................................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/utils/validation.py:72: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  return f(**kwargs)
+[CV]  linearsvc__C=0.1, score=(train=0.934, test=0.923), total=   3.6s
+[Parallel(n_jobs=-1)]: Done   4 tasks      | elapsed:    6.2s
+[CV] linearsvc__C=10 .................................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/utils/validation.py:72: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  return f(**kwargs)
+[CV]  linearsvc__C=0.1, score=(train=0.936, test=0.919), total=   3.9s
+[Parallel(n_jobs=-1)]: Done   5 tasks      | elapsed:    6.6s
+[CV] linearsvc__C=10 .................................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/utils/validation.py:72: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  return f(**kwargs)
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/svm/_base.py:977: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/svm/_base.py:977: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+[CV] .. linearsvc__C=1, score=(train=0.930, test=0.920), total=   7.6s
+[CV] .. linearsvc__C=1, score=(train=0.934, test=0.917), total=   7.6s
+[Parallel(n_jobs=-1)]: Done   6 out of  20 | elapsed:   10.2s remaining:   23.9s
+[Parallel(n_jobs=-1)]: Done   7 out of  20 | elapsed:   10.2s remaining:   19.0s
+[CV] linearsvc__C=10 .................................................
+[CV] linearsvc__C=10 .................................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/utils/validation.py:72: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  return f(**kwargs)
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/utils/validation.py:72: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  return f(**kwargs)
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/svm/_base.py:977: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+[CV] .. linearsvc__C=1, score=(train=0.939, test=0.920), total=   7.7s
+[Parallel(n_jobs=-1)]: Done   8 out of  20 | elapsed:   10.4s remaining:   15.6s
+[CV] linearsvc__C=100 ................................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/utils/validation.py:72: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  return f(**kwargs)
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/svm/_base.py:977: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+[CV] .. linearsvc__C=1, score=(train=0.938, test=0.913), total=   6.7s
+[Parallel(n_jobs=-1)]: Done   9 out of  20 | elapsed:   12.1s remaining:   14.8s
+[CV] linearsvc__C=100 ................................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/utils/validation.py:72: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  return f(**kwargs)
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/svm/_base.py:977: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+[CV] .. linearsvc__C=1, score=(train=0.938, test=0.910), total=   7.6s
+[Parallel(n_jobs=-1)]: Done  10 out of  20 | elapsed:   13.6s remaining:   13.6s
+[CV] linearsvc__C=100 ................................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/utils/validation.py:72: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  return f(**kwargs)
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/svm/_base.py:977: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+[CV] . linearsvc__C=10, score=(train=0.929, test=0.917), total=   8.0s
+[Parallel(n_jobs=-1)]: Done  11 out of  20 | elapsed:   14.2s remaining:   11.6s
+[CV] linearsvc__C=100 ................................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/utils/validation.py:72: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  return f(**kwargs)
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/svm/_base.py:977: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+[CV] . linearsvc__C=10, score=(train=0.936, test=0.920), total=   8.0s
+[Parallel(n_jobs=-1)]: Done  12 out of  20 | elapsed:   14.7s remaining:    9.8s
+[CV] linearsvc__C=100 ................................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/utils/validation.py:72: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  return f(**kwargs)
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/svm/_base.py:977: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+[CV] . linearsvc__C=10, score=(train=0.939, test=0.910), total=   8.8s
+[Parallel(n_jobs=-1)]: Done  13 out of  20 | elapsed:   15.1s remaining:    8.1s
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/svm/_base.py:977: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+[CV] . linearsvc__C=10, score=(train=0.938, test=0.911), total=   9.1s
+[Parallel(n_jobs=-1)]: Done  14 out of  20 | elapsed:   19.4s remaining:    8.3s
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/svm/_base.py:977: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+[CV] . linearsvc__C=10, score=(train=0.941, test=0.905), total=   9.2s
+[Parallel(n_jobs=-1)]: Done  15 out of  20 | elapsed:   19.5s remaining:    6.5s
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/svm/_base.py:977: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+[CV]  linearsvc__C=100, score=(train=0.917, test=0.925), total=   9.7s
+[Parallel(n_jobs=-1)]: Done  16 out of  20 | elapsed:   20.2s remaining:    5.1s
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/svm/_base.py:977: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+[CV]  linearsvc__C=100, score=(train=0.910, test=0.901), total=   8.1s
+[Parallel(n_jobs=-1)]: Done  17 out of  20 | elapsed:   21.7s remaining:    3.8s
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/svm/_base.py:977: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+[CV]  linearsvc__C=100, score=(train=0.905, test=0.888), total=   9.6s
+[Parallel(n_jobs=-1)]: Done  18 out of  20 | elapsed:   21.7s remaining:    2.4s
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/svm/_base.py:977: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+[CV]  linearsvc__C=100, score=(train=0.895, test=0.876), total=   8.0s
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/svm/_base.py:977: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+[CV]  linearsvc__C=100, score=(train=0.916, test=0.896), total=   7.5s
+[Parallel(n_jobs=-1)]: Done  20 out of  20 | elapsed:   22.3s remaining:    0.0s
+[Parallel(n_jobs=-1)]: Done  20 out of  20 | elapsed:   22.3s finished
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/utils/validation.py:72: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  return f(**kwargs)
+TA1:0.9353383456593743,0.9213793103448276
+(mls_lab) 
+# friedrich @ Friedrich-MBP in ~/Projects/GitHub/AMLS_assignment20_21/AMLS_20-21_SN20043715 on git:master x [22:32:08] 
+$ 

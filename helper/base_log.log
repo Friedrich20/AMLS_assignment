@@ -1,0 +1,415 @@
+Wed, 23 Dec 2020 22:16:54 main.py[line:40] INFO *****************************************
+Wed, 23 Dec 2020 22:16:54 main.py[line:41] INFO **********[Main program starts]**********
+Wed, 23 Dec 2020 22:16:54 main.py[line:42] INFO *****************************************
+
+Wed, 23 Dec 2020 22:16:54 main.py[line:48] INFO **********[Task A1 starts]**********
+Wed, 23 Dec 2020 22:16:54 helper.py[line:309] INFO ==========[Data Preparation starts]==========
+Wed, 23 Dec 2020 22:16:54 helper.py[line:203] INFO ==========[Dlib face detection begins]==========
+Wed, 23 Dec 2020 22:16:54 helper.py[line:204] INFO [Task]: A1
+Wed, 23 Dec 2020 22:16:54 helper.py[line:205] INFO [Dataset]: celeba
+Wed, 23 Dec 2020 22:16:54 helper.py[line:207] INFO [Dataset Location]: /Users/friedrich/Projects/GitHub/AMLS_assignment20_21/AMLS_20-21_SN20043715/Datasets/celeba
+Wed, 23 Dec 2020 22:18:05 helper.py[line:255] INFO [ImageID 3785] No face has been detected!
+Wed, 23 Dec 2020 22:18:15 helper.py[line:255] INFO [ImageID 374] No face has been detected!
+Wed, 23 Dec 2020 22:18:17 helper.py[line:255] INFO [ImageID 3168] No face has been detected!
+Wed, 23 Dec 2020 22:18:32 helper.py[line:255] INFO [ImageID 3626] No face has been detected!
+Wed, 23 Dec 2020 22:19:02 helper.py[line:255] INFO [ImageID 4411] No face has been detected!
+Wed, 23 Dec 2020 22:19:03 helper.py[line:255] INFO [ImageID 2060] No face has been detected!
+Wed, 23 Dec 2020 22:22:40 helper.py[line:255] INFO [ImageID 149] No face has been detected!
+Wed, 23 Dec 2020 22:23:42 helper.py[line:255] INFO [ImageID 3625] No face has been detected!
+Wed, 23 Dec 2020 22:24:33 helper.py[line:255] INFO [ImageID 3382] No face has been detected!
+Wed, 23 Dec 2020 22:24:49 helper.py[line:255] INFO [ImageID 982] No face has been detected!
+Wed, 23 Dec 2020 22:25:34 helper.py[line:255] INFO [ImageID 2248] No face has been detected!
+Wed, 23 Dec 2020 22:25:34 helper.py[line:255] INFO [ImageID 3142] No face has been detected!
+Wed, 23 Dec 2020 22:25:38 helper.py[line:255] INFO [ImageID 2512] No face has been detected!
+Wed, 23 Dec 2020 22:26:04 helper.py[line:255] INFO [ImageID 1153] No face has been detected!
+Wed, 23 Dec 2020 22:26:22 helper.py[line:255] INFO [ImageID 2314] No face has been detected!
+Wed, 23 Dec 2020 22:26:36 helper.py[line:255] INFO [ImageID 148] No face has been detected!
+Wed, 23 Dec 2020 22:27:36 helper.py[line:255] INFO [ImageID 602] No face has been detected!
+Wed, 23 Dec 2020 22:27:41 helper.py[line:255] INFO [ImageID 158] No face has been detected!
+Wed, 23 Dec 2020 22:28:21 helper.py[line:255] INFO [ImageID 1037] No face has been detected!
+Wed, 23 Dec 2020 22:29:00 helper.py[line:255] INFO [ImageID 2728] No face has been detected!
+Wed, 23 Dec 2020 22:30:14 helper.py[line:255] INFO [ImageID 1793] No face has been detected!
+Wed, 23 Dec 2020 22:30:59 helper.py[line:255] INFO [ImageID 4006] No face has been detected!
+Wed, 23 Dec 2020 22:31:21 helper.py[line:255] INFO [ImageID 165] No face has been detected!
+Wed, 23 Dec 2020 22:32:08 helper.py[line:255] INFO [ImageID 198] No face has been detected!
+Wed, 23 Dec 2020 22:32:09 helper.py[line:255] INFO [ImageID 66] No face has been detected!
+Wed, 23 Dec 2020 22:32:43 helper.py[line:255] INFO [ImageID 3757] No face has been detected!
+Wed, 23 Dec 2020 22:33:01 helper.py[line:255] INFO [ImageID 4789] No face has been detected!
+Wed, 23 Dec 2020 22:33:04 helper.py[line:255] INFO [ImageID 1183] No face has been detected!
+Wed, 23 Dec 2020 22:33:28 helper.py[line:255] INFO [ImageID 2267] No face has been detected!
+Wed, 23 Dec 2020 22:34:01 helper.py[line:255] INFO [ImageID 4400] No face has been detected!
+Wed, 23 Dec 2020 22:34:17 helper.py[line:255] INFO [ImageID 2924] No face has been detected!
+Wed, 23 Dec 2020 22:34:25 helper.py[line:255] INFO [ImageID 2919] No face has been detected!
+Wed, 23 Dec 2020 22:35:45 helper.py[line:255] INFO [ImageID 416] No face has been detected!
+Wed, 23 Dec 2020 22:36:19 helper.py[line:255] INFO [ImageID 2851] No face has been detected!
+Wed, 23 Dec 2020 22:36:23 helper.py[line:255] INFO [ImageID 166] No face has been detected!
+Wed, 23 Dec 2020 22:36:45 helper.py[line:255] INFO [ImageID 1343] No face has been detected!
+Wed, 23 Dec 2020 22:38:00 helper.py[line:255] INFO [ImageID 3731] No face has been detected!
+Wed, 23 Dec 2020 22:39:09 helper.py[line:255] INFO [ImageID 1522] No face has been detected!
+Wed, 23 Dec 2020 22:40:29 helper.py[line:255] INFO [ImageID 3650] No face has been detected!
+Wed, 23 Dec 2020 22:40:42 helper.py[line:255] INFO [ImageID 4103] No face has been detected!
+Wed, 23 Dec 2020 22:42:53 helper.py[line:255] INFO [ImageID 1119] No face has been detected!
+Wed, 23 Dec 2020 22:43:05 helper.py[line:255] INFO [ImageID 3054] No face has been detected!
+Wed, 23 Dec 2020 22:43:42 helper.py[line:255] INFO [ImageID 4101] No face has been detected!
+Wed, 23 Dec 2020 22:43:56 helper.py[line:255] INFO [ImageID 1045] No face has been detected!
+Wed, 23 Dec 2020 22:44:18 helper.py[line:255] INFO [ImageID 4471] No face has been detected!
+Wed, 23 Dec 2020 22:45:01 helper.py[line:255] INFO [ImageID 3492] No face has been detected!
+Wed, 23 Dec 2020 22:45:35 helper.py[line:255] INFO [ImageID 1939] No face has been detected!
+Wed, 23 Dec 2020 22:45:38 helper.py[line:255] INFO [ImageID 4699] No face has been detected!
+Wed, 23 Dec 2020 22:45:55 helper.py[line:255] INFO [ImageID 3135] No face has been detected!
+Wed, 23 Dec 2020 22:46:17 helper.py[line:255] INFO [ImageID 4672] No face has been detected!
+Wed, 23 Dec 2020 22:46:29 helper.py[line:255] INFO [ImageID 315] No face has been detected!
+Wed, 23 Dec 2020 22:46:51 helper.py[line:255] INFO [ImageID 4712] No face has been detected!
+Wed, 23 Dec 2020 22:47:14 helper.py[line:255] INFO [ImageID 881] No face has been detected!
+Wed, 23 Dec 2020 22:47:25 helper.py[line:255] INFO [ImageID 1440] No face has been detected!
+Wed, 23 Dec 2020 22:47:35 helper.py[line:255] INFO [ImageID 1468] No face has been detected!
+Wed, 23 Dec 2020 22:49:33 helper.py[line:255] INFO [ImageID 2213] No face has been detected!
+Wed, 23 Dec 2020 22:50:56 helper.py[line:255] INFO [ImageID 3454] No face has been detected!
+Wed, 23 Dec 2020 22:51:03 helper.py[line:255] INFO [ImageID 4449] No face has been detected!
+Wed, 23 Dec 2020 22:51:19 helper.py[line:255] INFO [ImageID 4688] No face has been detected!
+Wed, 23 Dec 2020 22:51:41 helper.py[line:255] INFO [ImageID 3130] No face has been detected!
+Wed, 23 Dec 2020 22:51:46 helper.py[line:255] INFO [ImageID 4893] No face has been detected!
+Wed, 23 Dec 2020 22:52:11 helper.py[line:255] INFO [ImageID 1109] No face has been detected!
+Wed, 23 Dec 2020 22:52:13 helper.py[line:255] INFO [ImageID 4717] No face has been detected!
+Wed, 23 Dec 2020 22:52:45 helper.py[line:255] INFO [ImageID 3291] No face has been detected!
+Wed, 23 Dec 2020 22:53:05 helper.py[line:255] INFO [ImageID 1337] No face has been detected!
+Wed, 23 Dec 2020 22:53:51 helper.py[line:255] INFO [ImageID 1651] No face has been detected!
+Wed, 23 Dec 2020 22:54:08 helper.py[line:255] INFO [ImageID 2416] No face has been detected!
+Wed, 23 Dec 2020 22:54:28 helper.py[line:255] INFO [ImageID 3907] No face has been detected!
+Wed, 23 Dec 2020 22:55:31 helper.py[line:255] INFO [ImageID 2012] No face has been detected!
+Wed, 23 Dec 2020 22:55:52 helper.py[line:255] INFO [ImageID 1297] No face has been detected!
+Wed, 23 Dec 2020 22:55:59 helper.py[line:255] INFO [ImageID 4476] No face has been detected!
+Wed, 23 Dec 2020 22:56:00 helper.py[line:255] INFO [ImageID 3319] No face has been detected!
+Wed, 23 Dec 2020 22:56:09 helper.py[line:255] INFO [ImageID 2013] No face has been detected!
+Wed, 23 Dec 2020 22:56:12 helper.py[line:255] INFO [ImageID 1532] No face has been detected!
+Wed, 23 Dec 2020 22:56:14 helper.py[line:255] INFO [ImageID 1254] No face has been detected!
+Wed, 23 Dec 2020 22:56:43 helper.py[line:255] INFO [ImageID 4112] No face has been detected!
+Wed, 23 Dec 2020 22:57:12 helper.py[line:255] INFO [ImageID 1877] No face has been detected!
+Wed, 23 Dec 2020 22:57:48 helper.py[line:255] INFO [ImageID 887] No face has been detected!
+Wed, 23 Dec 2020 22:58:38 helper.py[line:255] INFO [ImageID 35] No face has been detected!
+Wed, 23 Dec 2020 22:58:42 helper.py[line:255] INFO [ImageID 3248] No face has been detected!
+Wed, 23 Dec 2020 22:58:52 helper.py[line:255] INFO [ImageID 1305] No face has been detected!
+Wed, 23 Dec 2020 22:59:23 helper.py[line:255] INFO [ImageID 4043] No face has been detected!
+Wed, 23 Dec 2020 22:59:46 helper.py[line:255] INFO [ImageID 4080] No face has been detected!
+Wed, 23 Dec 2020 23:00:35 helper.py[line:255] INFO [ImageID 524] No face has been detected!
+Wed, 23 Dec 2020 23:00:36 helper.py[line:255] INFO [ImageID 4447] No face has been detected!
+Wed, 23 Dec 2020 23:00:46 helper.py[line:255] INFO [ImageID 4335] No face has been detected!
+Wed, 23 Dec 2020 23:00:58 helper.py[line:255] INFO [ImageID 4309] No face has been detected!
+Wed, 23 Dec 2020 23:03:59 helper.py[line:255] INFO [ImageID 4524] No face has been detected!
+Wed, 23 Dec 2020 23:04:29 helper.py[line:255] INFO [ImageID 2828] No face has been detected!
+Wed, 23 Dec 2020 23:04:38 helper.py[line:255] INFO [ImageID 645] No face has been detected!
+Wed, 23 Dec 2020 23:04:43 helper.py[line:255] INFO [ImageID 2431] No face has been detected!
+Wed, 23 Dec 2020 23:05:00 helper.py[line:255] INFO [ImageID 1676] No face has been detected!
+Wed, 23 Dec 2020 23:06:24 helper.py[line:255] INFO [ImageID 4322] No face has been detected!
+Wed, 23 Dec 2020 23:06:51 helper.py[line:255] INFO [ImageID 2975] No face has been detected!
+Wed, 23 Dec 2020 23:06:54 helper.py[line:255] INFO [ImageID 2961] No face has been detected!
+Wed, 23 Dec 2020 23:07:51 helper.py[line:255] INFO [ImageID 1703] No face has been detected!
+Wed, 23 Dec 2020 23:08:21 helper.py[line:255] INFO [ImageID 452] No face has been detected!
+Wed, 23 Dec 2020 23:09:09 helper.py[line:255] INFO [ImageID 136] No face has been detected!
+Wed, 23 Dec 2020 23:09:41 helper.py[line:255] INFO [ImageID 4531] No face has been detected!
+Wed, 23 Dec 2020 23:09:52 helper.py[line:255] INFO [ImageID 3514] No face has been detected!
+Wed, 23 Dec 2020 23:11:26 helper.py[line:255] INFO [ImageID 3662] No face has been detected!
+Wed, 23 Dec 2020 23:12:05 helper.py[line:255] INFO [ImageID 4680] No face has been detected!
+Wed, 23 Dec 2020 23:12:11 helper.py[line:255] INFO [ImageID 3306] No face has been detected!
+Wed, 23 Dec 2020 23:12:15 helper.py[line:255] INFO [ImageID 1505] No face has been detected!
+Wed, 23 Dec 2020 23:12:37 helper.py[line:255] INFO [ImageID 2971] No face has been detected!
+Wed, 23 Dec 2020 23:13:10 helper.py[line:255] INFO [ImageID 4454] No face has been detected!
+Wed, 23 Dec 2020 23:13:32 helper.py[line:255] INFO [ImageID 2582] No face has been detected!
+Wed, 23 Dec 2020 23:14:02 helper.py[line:255] INFO [ImageID 292] No face has been detected!
+Wed, 23 Dec 2020 23:14:15 helper.py[line:255] INFO [ImageID 2384] No face has been detected!
+Wed, 23 Dec 2020 23:14:19 helper.py[line:255] INFO [ImageID 1841] No face has been detected!
+Wed, 23 Dec 2020 23:14:34 helper.py[line:255] INFO [ImageID 2347] No face has been detected!
+Wed, 23 Dec 2020 23:15:13 helper.py[line:255] INFO [ImageID 2145] No face has been detected!
+Wed, 23 Dec 2020 23:15:47 helper.py[line:255] INFO [ImageID 3271] No face has been detected!
+Wed, 23 Dec 2020 23:16:04 helper.py[line:255] INFO [ImageID 4522] No face has been detected!
+Wed, 23 Dec 2020 23:16:17 helper.py[line:255] INFO [ImageID 119] No face has been detected!
+Wed, 23 Dec 2020 23:16:38 helper.py[line:255] INFO [ImageID 2345] No face has been detected!
+Wed, 23 Dec 2020 23:17:17 helper.py[line:255] INFO [ImageID 4668] No face has been detected!
+Wed, 23 Dec 2020 23:17:18 helper.py[line:255] INFO [ImageID 3107] No face has been detected!
+Wed, 23 Dec 2020 23:19:14 helper.py[line:255] INFO [ImageID 3853] No face has been detected!
+Wed, 23 Dec 2020 23:20:00 helper.py[line:255] INFO [ImageID 3927] No face has been detected!
+Wed, 23 Dec 2020 23:20:17 helper.py[line:255] INFO [ImageID 2344] No face has been detected!
+Wed, 23 Dec 2020 23:20:30 helper.py[line:255] INFO [ImageID 4709] No face has been detected!
+Wed, 23 Dec 2020 23:20:57 helper.py[line:255] INFO [ImageID 4251] No face has been detected!
+Wed, 23 Dec 2020 23:21:28 helper.py[line:255] INFO [ImageID 4550] No face has been detected!
+Wed, 23 Dec 2020 23:21:35 helper.py[line:255] INFO [ImageID 4222] No face has been detected!
+Wed, 23 Dec 2020 23:21:43 helper.py[line:255] INFO [ImageID 1400] No face has been detected!
+Wed, 23 Dec 2020 23:22:38 helper.py[line:255] INFO [ImageID 2486] No face has been detected!
+Wed, 23 Dec 2020 23:22:48 helper.py[line:255] INFO [ImageID 433] No face has been detected!
+Wed, 23 Dec 2020 23:23:20 helper.py[line:255] INFO [ImageID 1945] No face has been detected!
+Wed, 23 Dec 2020 23:23:21 helper.py[line:255] INFO [ImageID 2294] No face has been detected!
+Wed, 23 Dec 2020 23:26:18 helper.py[line:255] INFO [ImageID 4009] No face has been detected!
+Wed, 23 Dec 2020 23:26:59 helper.py[line:255] INFO [ImageID 3564] No face has been detected!
+Wed, 23 Dec 2020 23:28:07 helper.py[line:255] INFO [ImageID 626] No face has been detected!
+Wed, 23 Dec 2020 23:29:21 helper.py[line:255] INFO [ImageID 3823] No face has been detected!
+Wed, 23 Dec 2020 23:29:32 helper.py[line:255] INFO [ImageID 4802] No face has been detected!
+Wed, 23 Dec 2020 23:30:21 helper.py[line:255] INFO [ImageID 948] No face has been detected!
+Wed, 23 Dec 2020 23:30:45 helper.py[line:255] INFO [ImageID 223] No face has been detected!
+Wed, 23 Dec 2020 23:31:11 helper.py[line:255] INFO [ImageID 4624] No face has been detected!
+Wed, 23 Dec 2020 23:31:18 helper.py[line:255] INFO [ImageID 3639] No face has been detected!
+Wed, 23 Dec 2020 23:31:20 helper.py[line:255] INFO [ImageID 425] No face has been detected!
+Wed, 23 Dec 2020 23:31:50 helper.py[line:255] INFO [ImageID 2447] No face has been detected!
+Wed, 23 Dec 2020 23:32:46 helper.py[line:255] INFO [ImageID 3211] No face has been detected!
+Wed, 23 Dec 2020 23:32:59 helper.py[line:255] INFO [ImageID 2] No face has been detected!
+Wed, 23 Dec 2020 23:33:03 helper.py[line:255] INFO [ImageID 2655] No face has been detected!
+Wed, 23 Dec 2020 23:33:20 helper.py[line:255] INFO [ImageID 2696] No face has been detected!
+Wed, 23 Dec 2020 23:33:25 helper.py[line:255] INFO [ImageID 4595] No face has been detected!
+Wed, 23 Dec 2020 23:33:27 helper.py[line:255] INFO [ImageID 1162] No face has been detected!
+Wed, 23 Dec 2020 23:33:57 helper.py[line:255] INFO [ImageID 409] No face has been detected!
+Wed, 23 Dec 2020 23:34:21 helper.py[line:255] INFO [ImageID 1994] No face has been detected!
+Wed, 23 Dec 2020 23:36:00 helper.py[line:255] INFO [ImageID 1956] No face has been detected!
+Wed, 23 Dec 2020 23:36:02 helper.py[line:255] INFO [ImageID 3199] No face has been detected!
+Wed, 23 Dec 2020 23:36:36 helper.py[line:255] INFO [ImageID 2481] No face has been detected!
+Wed, 23 Dec 2020 23:37:10 helper.py[line:255] INFO [ImageID 1605] No face has been detected!
+Wed, 23 Dec 2020 23:37:12 helper.py[line:255] INFO [ImageID 3012] No face has been detected!
+Wed, 23 Dec 2020 23:37:35 helper.py[line:255] INFO [ImageID 3] No face has been detected!
+Wed, 23 Dec 2020 23:38:09 helper.py[line:255] INFO [ImageID 4555] No face has been detected!
+Wed, 23 Dec 2020 23:39:02 helper.py[line:255] INFO [ImageID 3979] No face has been detected!
+Wed, 23 Dec 2020 23:39:10 helper.py[line:255] INFO [ImageID 3945] No face has been detected!
+Wed, 23 Dec 2020 23:39:42 helper.py[line:255] INFO [ImageID 556] No face has been detected!
+Wed, 23 Dec 2020 23:39:55 helper.py[line:255] INFO [ImageID 2285] No face has been detected!
+Wed, 23 Dec 2020 23:41:11 helper.py[line:255] INFO [ImageID 3824] No face has been detected!
+Wed, 23 Dec 2020 23:41:31 helper.py[line:255] INFO [ImageID 4150] No face has been detected!
+Wed, 23 Dec 2020 23:41:46 helper.py[line:255] INFO [ImageID 3171] No face has been detected!
+Wed, 23 Dec 2020 23:42:32 helper.py[line:255] INFO [ImageID 4597] No face has been detected!
+Wed, 23 Dec 2020 23:42:38 helper.py[line:255] INFO [ImageID 153] No face has been detected!
+Wed, 23 Dec 2020 23:42:49 helper.py[line:255] INFO [ImageID 4540] No face has been detected!
+Wed, 23 Dec 2020 23:42:52 helper.py[line:255] INFO [ImageID 806] No face has been detected!
+Wed, 23 Dec 2020 23:43:07 helper.py[line:264] INFO ====================
+Wed, 23 Dec 2020 23:43:07 helper.py[line:266] INFO 4833 out of 5000 images have been detected.
+Wed, 23 Dec 2020 23:43:07 helper.py[line:268] INFO Detection ratio: 96.7 %
+Wed, 23 Dec 2020 23:43:07 helper.py[line:270] INFO [Execution time]: 01:26:12
+Wed, 23 Dec 2020 23:43:07 helper.py[line:290] INFO [CSV Location]: /Users/friedrich/Projects/GitHub/AMLS_assignment20_21/AMLS_20-21_SN20043715/A1/A1_dataset.csv
+Wed, 23 Dec 2020 23:43:07 helper.py[line:291] INFO ==========[Dlib face detection ends]==========
+Wed, 23 Dec 2020 23:43:07 helper.py[line:317] INFO Data have been prepared from features and labels.
+Wed, 23 Dec 2020 23:43:07 helper.py[line:318] INFO ==========[Data Preparation ends]==========
+Wed, 23 Dec 2020 23:43:07 helper.py[line:382] INFO ==========[Model training starts]==========
+Wed, 23 Dec 2020 23:43:07 helper.py[line:383] INFO [Task]: A1
+Wed, 23 Dec 2020 23:43:07 helper.py[line:384] INFO [Model]: LinearSVM
+Wed, 23 Dec 2020 23:43:07 helper.py[line:397] INFO [Model]: No model has been found for this task.
+Wed, 23 Dec 2020 23:43:07 helper.py[line:398] INFO Starting to train a new one...
+Wed, 23 Dec 2020 23:43:25 helper.py[line:450] INFO ====================
+Wed, 23 Dec 2020 23:43:25 helper.py[line:453] INFO [Best Parameters]: {'linearsvc__C': 0.1}
+Wed, 23 Dec 2020 23:43:25 helper.py[line:454] INFO [Best Test Score]: 0.9204832492811132
+Wed, 23 Dec 2020 23:43:25 helper.py[line:456] INFO [Best Training Score]: 0.9353383456593743
+Wed, 23 Dec 2020 23:43:25 helper.py[line:496] INFO [Execution time]: 00:00:18
+Wed, 23 Dec 2020 23:43:25 helper.py[line:497] INFO ==========[Model training ends]==========
+Wed, 23 Dec 2020 23:43:25 main.py[line:65] INFO **********[Task A1 ends]**********
+Wed, 23 Dec 2020 23:43:25 main.py[line:66] INFO ***********************************
+Wed, 23 Dec 2020 23:43:25 main.py[line:69] INFO **********[Task A2 starts]**********
+Wed, 23 Dec 2020 23:43:25 helper.py[line:309] INFO ==========[Data Preparation starts]==========
+Wed, 23 Dec 2020 23:43:25 helper.py[line:203] INFO ==========[Dlib face detection begins]==========
+Wed, 23 Dec 2020 23:43:25 helper.py[line:204] INFO [Task]: A2
+Wed, 23 Dec 2020 23:43:25 helper.py[line:205] INFO [Dataset]: celeba
+Wed, 23 Dec 2020 23:43:25 helper.py[line:207] INFO [Dataset Location]: /Users/friedrich/Projects/GitHub/AMLS_assignment20_21/AMLS_20-21_SN20043715/Datasets/celeba
+Wed, 23 Dec 2020 23:44:33 helper.py[line:255] INFO [ImageID 3785] No face has been detected!
+Wed, 23 Dec 2020 23:44:43 helper.py[line:255] INFO [ImageID 374] No face has been detected!
+Wed, 23 Dec 2020 23:44:44 helper.py[line:255] INFO [ImageID 3168] No face has been detected!
+Wed, 23 Dec 2020 23:44:58 helper.py[line:255] INFO [ImageID 3626] No face has been detected!
+Wed, 23 Dec 2020 23:45:27 helper.py[line:255] INFO [ImageID 4411] No face has been detected!
+Wed, 23 Dec 2020 23:45:28 helper.py[line:255] INFO [ImageID 2060] No face has been detected!
+Wed, 23 Dec 2020 23:48:58 helper.py[line:255] INFO [ImageID 149] No face has been detected!
+Wed, 23 Dec 2020 23:50:05 helper.py[line:255] INFO [ImageID 3625] No face has been detected!
+Wed, 23 Dec 2020 23:51:00 helper.py[line:255] INFO [ImageID 3382] No face has been detected!
+Wed, 23 Dec 2020 23:51:15 helper.py[line:255] INFO [ImageID 982] No face has been detected!
+Wed, 23 Dec 2020 23:51:59 helper.py[line:255] INFO [ImageID 2248] No face has been detected!
+Wed, 23 Dec 2020 23:52:00 helper.py[line:255] INFO [ImageID 3142] No face has been detected!
+Wed, 23 Dec 2020 23:52:04 helper.py[line:255] INFO [ImageID 2512] No face has been detected!
+Wed, 23 Dec 2020 23:52:29 helper.py[line:255] INFO [ImageID 1153] No face has been detected!
+Wed, 23 Dec 2020 23:52:47 helper.py[line:255] INFO [ImageID 2314] No face has been detected!
+Wed, 23 Dec 2020 23:53:01 helper.py[line:255] INFO [ImageID 148] No face has been detected!
+Wed, 23 Dec 2020 23:54:01 helper.py[line:255] INFO [ImageID 602] No face has been detected!
+Wed, 23 Dec 2020 23:54:05 helper.py[line:255] INFO [ImageID 158] No face has been detected!
+Wed, 23 Dec 2020 23:54:45 helper.py[line:255] INFO [ImageID 1037] No face has been detected!
+Wed, 23 Dec 2020 23:55:24 helper.py[line:255] INFO [ImageID 2728] No face has been detected!
+Wed, 23 Dec 2020 23:56:37 helper.py[line:255] INFO [ImageID 1793] No face has been detected!
+Wed, 23 Dec 2020 23:57:20 helper.py[line:255] INFO [ImageID 4006] No face has been detected!
+Wed, 23 Dec 2020 23:57:42 helper.py[line:255] INFO [ImageID 165] No face has been detected!
+Wed, 23 Dec 2020 23:58:28 helper.py[line:255] INFO [ImageID 198] No face has been detected!
+Wed, 23 Dec 2020 23:58:29 helper.py[line:255] INFO [ImageID 66] No face has been detected!
+Wed, 23 Dec 2020 23:59:06 helper.py[line:255] INFO [ImageID 3757] No face has been detected!
+Wed, 23 Dec 2020 23:59:24 helper.py[line:255] INFO [ImageID 4789] No face has been detected!
+Wed, 23 Dec 2020 23:59:26 helper.py[line:255] INFO [ImageID 1183] No face has been detected!
+Wed, 23 Dec 2020 23:59:49 helper.py[line:255] INFO [ImageID 2267] No face has been detected!
+Thu, 24 Dec 2020 00:00:22 helper.py[line:255] INFO [ImageID 4400] No face has been detected!
+Thu, 24 Dec 2020 00:00:38 helper.py[line:255] INFO [ImageID 2924] No face has been detected!
+Thu, 24 Dec 2020 00:00:46 helper.py[line:255] INFO [ImageID 2919] No face has been detected!
+Thu, 24 Dec 2020 00:02:04 helper.py[line:255] INFO [ImageID 416] No face has been detected!
+Thu, 24 Dec 2020 00:02:38 helper.py[line:255] INFO [ImageID 2851] No face has been detected!
+Thu, 24 Dec 2020 00:02:42 helper.py[line:255] INFO [ImageID 166] No face has been detected!
+Thu, 24 Dec 2020 00:03:04 helper.py[line:255] INFO [ImageID 1343] No face has been detected!
+Thu, 24 Dec 2020 00:04:10 helper.py[line:255] INFO [ImageID 3731] No face has been detected!
+Thu, 24 Dec 2020 00:05:16 helper.py[line:255] INFO [ImageID 1522] No face has been detected!
+Thu, 24 Dec 2020 00:06:29 helper.py[line:255] INFO [ImageID 3650] No face has been detected!
+Thu, 24 Dec 2020 00:06:42 helper.py[line:255] INFO [ImageID 4103] No face has been detected!
+Thu, 24 Dec 2020 00:08:35 helper.py[line:255] INFO [ImageID 1119] No face has been detected!
+Thu, 24 Dec 2020 00:08:45 helper.py[line:255] INFO [ImageID 3054] No face has been detected!
+Thu, 24 Dec 2020 00:09:18 helper.py[line:255] INFO [ImageID 4101] No face has been detected!
+Thu, 24 Dec 2020 00:09:30 helper.py[line:255] INFO [ImageID 1045] No face has been detected!
+Thu, 24 Dec 2020 00:09:49 helper.py[line:255] INFO [ImageID 4471] No face has been detected!
+Thu, 24 Dec 2020 00:10:24 helper.py[line:255] INFO [ImageID 3492] No face has been detected!
+Thu, 24 Dec 2020 00:10:54 helper.py[line:255] INFO [ImageID 1939] No face has been detected!
+Thu, 24 Dec 2020 00:10:58 helper.py[line:255] INFO [ImageID 4699] No face has been detected!
+Thu, 24 Dec 2020 00:11:13 helper.py[line:255] INFO [ImageID 3135] No face has been detected!
+Thu, 24 Dec 2020 00:17:31 helper.py[line:255] INFO [ImageID 4672] No face has been detected!
+Thu, 24 Dec 2020 00:21:16 helper.py[line:255] INFO [ImageID 315] No face has been detected!
+Thu, 24 Dec 2020 02:22:40 helper.py[line:255] INFO [ImageID 4712] No face has been detected!
+Thu, 24 Dec 2020 06:24:06 helper.py[line:255] INFO [ImageID 881] No face has been detected!
+Thu, 24 Dec 2020 06:24:26 helper.py[line:255] INFO [ImageID 1440] No face has been detected!
+Thu, 24 Dec 2020 08:25:07 helper.py[line:255] INFO [ImageID 1468] No face has been detected!
+Thu, 24 Dec 2020 08:43:37 helper.py[line:255] INFO [ImageID 2213] No face has been detected!
+Thu, 24 Dec 2020 08:44:54 helper.py[line:255] INFO [ImageID 3454] No face has been detected!
+Thu, 24 Dec 2020 08:45:01 helper.py[line:255] INFO [ImageID 4449] No face has been detected!
+Thu, 24 Dec 2020 08:45:15 helper.py[line:255] INFO [ImageID 4688] No face has been detected!
+Thu, 24 Dec 2020 08:45:35 helper.py[line:255] INFO [ImageID 3130] No face has been detected!
+Thu, 24 Dec 2020 08:45:40 helper.py[line:255] INFO [ImageID 4893] No face has been detected!
+Thu, 24 Dec 2020 08:46:03 helper.py[line:255] INFO [ImageID 1109] No face has been detected!
+Thu, 24 Dec 2020 08:46:05 helper.py[line:255] INFO [ImageID 4717] No face has been detected!
+Thu, 24 Dec 2020 08:46:35 helper.py[line:255] INFO [ImageID 3291] No face has been detected!
+Thu, 24 Dec 2020 08:46:53 helper.py[line:255] INFO [ImageID 1337] No face has been detected!
+Thu, 24 Dec 2020 08:47:36 helper.py[line:255] INFO [ImageID 1651] No face has been detected!
+Thu, 24 Dec 2020 08:47:50 helper.py[line:255] INFO [ImageID 2416] No face has been detected!
+Thu, 24 Dec 2020 08:48:07 helper.py[line:255] INFO [ImageID 3907] No face has been detected!
+Thu, 24 Dec 2020 08:49:06 helper.py[line:255] INFO [ImageID 2012] No face has been detected!
+Thu, 24 Dec 2020 08:49:25 helper.py[line:255] INFO [ImageID 1297] No face has been detected!
+Thu, 24 Dec 2020 08:49:32 helper.py[line:255] INFO [ImageID 4476] No face has been detected!
+Thu, 24 Dec 2020 08:49:33 helper.py[line:255] INFO [ImageID 3319] No face has been detected!
+Thu, 24 Dec 2020 08:49:40 helper.py[line:255] INFO [ImageID 2013] No face has been detected!
+Thu, 24 Dec 2020 08:49:43 helper.py[line:255] INFO [ImageID 1532] No face has been detected!
+Thu, 24 Dec 2020 08:49:44 helper.py[line:255] INFO [ImageID 1254] No face has been detected!
+Thu, 24 Dec 2020 08:50:11 helper.py[line:255] INFO [ImageID 4112] No face has been detected!
+Thu, 24 Dec 2020 08:50:35 helper.py[line:255] INFO [ImageID 1877] No face has been detected!
+Thu, 24 Dec 2020 08:51:09 helper.py[line:255] INFO [ImageID 887] No face has been detected!
+Thu, 24 Dec 2020 08:51:53 helper.py[line:255] INFO [ImageID 35] No face has been detected!
+Thu, 24 Dec 2020 08:51:57 helper.py[line:255] INFO [ImageID 3248] No face has been detected!
+Thu, 24 Dec 2020 08:52:06 helper.py[line:255] INFO [ImageID 1305] No face has been detected!
+Thu, 24 Dec 2020 08:52:33 helper.py[line:255] INFO [ImageID 4043] No face has been detected!
+Thu, 24 Dec 2020 08:52:54 helper.py[line:255] INFO [ImageID 4080] No face has been detected!
+Thu, 24 Dec 2020 08:53:40 helper.py[line:255] INFO [ImageID 524] No face has been detected!
+Thu, 24 Dec 2020 08:53:41 helper.py[line:255] INFO [ImageID 4447] No face has been detected!
+Thu, 24 Dec 2020 08:53:50 helper.py[line:255] INFO [ImageID 4335] No face has been detected!
+Thu, 24 Dec 2020 08:54:03 helper.py[line:255] INFO [ImageID 4309] No face has been detected!
+Thu, 24 Dec 2020 08:56:42 helper.py[line:255] INFO [ImageID 4524] No face has been detected!
+Thu, 24 Dec 2020 08:57:08 helper.py[line:255] INFO [ImageID 2828] No face has been detected!
+Thu, 24 Dec 2020 08:57:16 helper.py[line:255] INFO [ImageID 645] No face has been detected!
+Thu, 24 Dec 2020 08:57:20 helper.py[line:255] INFO [ImageID 2431] No face has been detected!
+Thu, 24 Dec 2020 08:57:36 helper.py[line:255] INFO [ImageID 1676] No face has been detected!
+Thu, 24 Dec 2020 08:58:50 helper.py[line:255] INFO [ImageID 4322] No face has been detected!
+Thu, 24 Dec 2020 08:59:13 helper.py[line:255] INFO [ImageID 2975] No face has been detected!
+Thu, 24 Dec 2020 08:59:16 helper.py[line:255] INFO [ImageID 2961] No face has been detected!
+Thu, 24 Dec 2020 09:00:09 helper.py[line:255] INFO [ImageID 1703] No face has been detected!
+Thu, 24 Dec 2020 09:00:40 helper.py[line:255] INFO [ImageID 452] No face has been detected!
+Thu, 24 Dec 2020 09:01:21 helper.py[line:255] INFO [ImageID 136] No face has been detected!
+Thu, 24 Dec 2020 09:01:54 helper.py[line:255] INFO [ImageID 4531] No face has been detected!
+Thu, 24 Dec 2020 09:02:04 helper.py[line:255] INFO [ImageID 3514] No face has been detected!
+Thu, 24 Dec 2020 09:03:36 helper.py[line:255] INFO [ImageID 3662] No face has been detected!
+Thu, 24 Dec 2020 09:04:18 helper.py[line:255] INFO [ImageID 4680] No face has been detected!
+Thu, 24 Dec 2020 09:04:23 helper.py[line:255] INFO [ImageID 3306] No face has been detected!
+Thu, 24 Dec 2020 09:04:28 helper.py[line:255] INFO [ImageID 1505] No face has been detected!
+Thu, 24 Dec 2020 09:04:49 helper.py[line:255] INFO [ImageID 2971] No face has been detected!
+Thu, 24 Dec 2020 09:05:22 helper.py[line:255] INFO [ImageID 4454] No face has been detected!
+Thu, 24 Dec 2020 09:05:45 helper.py[line:255] INFO [ImageID 2582] No face has been detected!
+Thu, 24 Dec 2020 09:06:14 helper.py[line:255] INFO [ImageID 292] No face has been detected!
+Thu, 24 Dec 2020 09:06:28 helper.py[line:255] INFO [ImageID 2384] No face has been detected!
+Thu, 24 Dec 2020 09:06:32 helper.py[line:255] INFO [ImageID 1841] No face has been detected!
+Thu, 24 Dec 2020 09:06:48 helper.py[line:255] INFO [ImageID 2347] No face has been detected!
+Thu, 24 Dec 2020 09:07:28 helper.py[line:255] INFO [ImageID 2145] No face has been detected!
+Thu, 24 Dec 2020 09:08:05 helper.py[line:255] INFO [ImageID 3271] No face has been detected!
+Thu, 24 Dec 2020 09:08:23 helper.py[line:255] INFO [ImageID 4522] No face has been detected!
+Thu, 24 Dec 2020 09:08:36 helper.py[line:255] INFO [ImageID 119] No face has been detected!
+Thu, 24 Dec 2020 09:08:57 helper.py[line:255] INFO [ImageID 2345] No face has been detected!
+Thu, 24 Dec 2020 09:09:37 helper.py[line:255] INFO [ImageID 4668] No face has been detected!
+Thu, 24 Dec 2020 09:09:38 helper.py[line:255] INFO [ImageID 3107] No face has been detected!
+Thu, 24 Dec 2020 09:11:32 helper.py[line:255] INFO [ImageID 3853] No face has been detected!
+Thu, 24 Dec 2020 09:12:16 helper.py[line:255] INFO [ImageID 3927] No face has been detected!
+Thu, 24 Dec 2020 09:12:33 helper.py[line:255] INFO [ImageID 2344] No face has been detected!
+Thu, 24 Dec 2020 09:12:46 helper.py[line:255] INFO [ImageID 4709] No face has been detected!
+Thu, 24 Dec 2020 09:13:12 helper.py[line:255] INFO [ImageID 4251] No face has been detected!
+Thu, 24 Dec 2020 09:13:43 helper.py[line:255] INFO [ImageID 4550] No face has been detected!
+Thu, 24 Dec 2020 09:13:49 helper.py[line:255] INFO [ImageID 4222] No face has been detected!
+Thu, 24 Dec 2020 09:13:57 helper.py[line:255] INFO [ImageID 1400] No face has been detected!
+Thu, 24 Dec 2020 09:14:53 helper.py[line:255] INFO [ImageID 2486] No face has been detected!
+Thu, 24 Dec 2020 09:15:04 helper.py[line:255] INFO [ImageID 433] No face has been detected!
+Thu, 24 Dec 2020 09:15:35 helper.py[line:255] INFO [ImageID 1945] No face has been detected!
+Thu, 24 Dec 2020 09:15:36 helper.py[line:255] INFO [ImageID 2294] No face has been detected!
+Thu, 24 Dec 2020 09:18:35 helper.py[line:255] INFO [ImageID 4009] No face has been detected!
+Thu, 24 Dec 2020 09:19:16 helper.py[line:255] INFO [ImageID 3564] No face has been detected!
+Thu, 24 Dec 2020 09:20:24 helper.py[line:255] INFO [ImageID 626] No face has been detected!
+Thu, 24 Dec 2020 09:21:34 helper.py[line:255] INFO [ImageID 3823] No face has been detected!
+Thu, 24 Dec 2020 09:21:46 helper.py[line:255] INFO [ImageID 4802] No face has been detected!
+Thu, 24 Dec 2020 09:22:36 helper.py[line:255] INFO [ImageID 948] No face has been detected!
+Thu, 24 Dec 2020 09:23:01 helper.py[line:255] INFO [ImageID 223] No face has been detected!
+Thu, 24 Dec 2020 09:23:28 helper.py[line:255] INFO [ImageID 4624] No face has been detected!
+Thu, 24 Dec 2020 09:23:35 helper.py[line:255] INFO [ImageID 3639] No face has been detected!
+Thu, 24 Dec 2020 09:23:37 helper.py[line:255] INFO [ImageID 425] No face has been detected!
+Thu, 24 Dec 2020 09:24:07 helper.py[line:255] INFO [ImageID 2447] No face has been detected!
+Thu, 24 Dec 2020 09:25:05 helper.py[line:255] INFO [ImageID 3211] No face has been detected!
+Thu, 24 Dec 2020 09:25:19 helper.py[line:255] INFO [ImageID 2] No face has been detected!
+Thu, 24 Dec 2020 09:25:23 helper.py[line:255] INFO [ImageID 2655] No face has been detected!
+Thu, 24 Dec 2020 09:25:40 helper.py[line:255] INFO [ImageID 2696] No face has been detected!
+Thu, 24 Dec 2020 09:25:45 helper.py[line:255] INFO [ImageID 4595] No face has been detected!
+Thu, 24 Dec 2020 09:25:47 helper.py[line:255] INFO [ImageID 1162] No face has been detected!
+Thu, 24 Dec 2020 09:26:19 helper.py[line:255] INFO [ImageID 409] No face has been detected!
+Thu, 24 Dec 2020 09:26:43 helper.py[line:255] INFO [ImageID 1994] No face has been detected!
+Thu, 24 Dec 2020 09:28:26 helper.py[line:255] INFO [ImageID 1956] No face has been detected!
+Thu, 24 Dec 2020 09:28:28 helper.py[line:255] INFO [ImageID 3199] No face has been detected!
+Thu, 24 Dec 2020 09:29:04 helper.py[line:255] INFO [ImageID 2481] No face has been detected!
+Thu, 24 Dec 2020 09:29:38 helper.py[line:255] INFO [ImageID 1605] No face has been detected!
+Thu, 24 Dec 2020 09:29:41 helper.py[line:255] INFO [ImageID 3012] No face has been detected!
+Thu, 24 Dec 2020 09:30:05 helper.py[line:255] INFO [ImageID 3] No face has been detected!
+Thu, 24 Dec 2020 09:30:38 helper.py[line:255] INFO [ImageID 4555] No face has been detected!
+Thu, 24 Dec 2020 09:31:29 helper.py[line:255] INFO [ImageID 3979] No face has been detected!
+Thu, 24 Dec 2020 09:31:36 helper.py[line:255] INFO [ImageID 3945] No face has been detected!
+Thu, 24 Dec 2020 09:32:08 helper.py[line:255] INFO [ImageID 556] No face has been detected!
+Thu, 24 Dec 2020 09:32:21 helper.py[line:255] INFO [ImageID 2285] No face has been detected!
+Thu, 24 Dec 2020 09:33:37 helper.py[line:255] INFO [ImageID 3824] No face has been detected!
+Thu, 24 Dec 2020 09:33:57 helper.py[line:255] INFO [ImageID 4150] No face has been detected!
+Thu, 24 Dec 2020 09:34:11 helper.py[line:255] INFO [ImageID 3171] No face has been detected!
+Thu, 24 Dec 2020 09:35:02 helper.py[line:255] INFO [ImageID 4597] No face has been detected!
+Thu, 24 Dec 2020 09:35:09 helper.py[line:255] INFO [ImageID 153] No face has been detected!
+Thu, 24 Dec 2020 09:35:21 helper.py[line:255] INFO [ImageID 4540] No face has been detected!
+Thu, 24 Dec 2020 09:35:25 helper.py[line:255] INFO [ImageID 806] No face has been detected!
+Thu, 24 Dec 2020 09:35:40 helper.py[line:264] INFO ====================
+Thu, 24 Dec 2020 09:35:40 helper.py[line:266] INFO 4833 out of 5000 images have been detected.
+Thu, 24 Dec 2020 09:35:40 helper.py[line:268] INFO Detection ratio: 96.7 %
+Thu, 24 Dec 2020 09:35:40 helper.py[line:270] INFO [Execution time]: 09:52:15
+Thu, 24 Dec 2020 09:35:41 helper.py[line:290] INFO [CSV Location]: /Users/friedrich/Projects/GitHub/AMLS_assignment20_21/AMLS_20-21_SN20043715/A2/A2_dataset.csv
+Thu, 24 Dec 2020 09:35:41 helper.py[line:291] INFO ==========[Dlib face detection ends]==========
+Thu, 24 Dec 2020 09:35:41 helper.py[line:317] INFO Data have been prepared from features and labels.
+Thu, 24 Dec 2020 09:35:41 helper.py[line:318] INFO ==========[Data Preparation ends]==========
+Thu, 24 Dec 2020 09:35:41 helper.py[line:355] INFO ==========[Feature selection starts]==========
+Thu, 24 Dec 2020 09:35:42 helper.py[line:363] INFO [Original features amount]: 136
+Thu, 24 Dec 2020 09:35:42 helper.py[line:364] INFO [Selected features amount]: 68
+Thu, 24 Dec 2020 09:35:42 helper.py[line:366] INFO ==========[Feature selection ends]==========
+Thu, 24 Dec 2020 09:35:42 helper.py[line:382] INFO ==========[Model training starts]==========
+Thu, 24 Dec 2020 09:35:42 helper.py[line:383] INFO [Task]: A2
+Thu, 24 Dec 2020 09:35:42 helper.py[line:384] INFO [Model]: LinearSVM
+Thu, 24 Dec 2020 09:35:42 helper.py[line:397] INFO [Model]: No model has been found for this task.
+Thu, 24 Dec 2020 09:35:42 helper.py[line:398] INFO Starting to train a new one...
+Thu, 24 Dec 2020 09:36:03 helper.py[line:450] INFO ====================
+Thu, 24 Dec 2020 09:36:03 helper.py[line:453] INFO [Best Parameters]: {'linearsvc__C': 1}
+Thu, 24 Dec 2020 09:36:03 helper.py[line:454] INFO [Best Test Score]: 0.8888531023572497
+Thu, 24 Dec 2020 09:36:03 helper.py[line:456] INFO [Best Training Score]: 0.8980931700709693
+Thu, 24 Dec 2020 09:36:03 helper.py[line:496] INFO [Execution time]: 00:00:20
+Thu, 24 Dec 2020 09:36:03 helper.py[line:497] INFO ==========[Model training ends]==========
+Thu, 24 Dec 2020 09:36:03 main.py[line:86] INFO **********[Task A2 ends]**********
+Thu, 24 Dec 2020 09:36:03 main.py[line:87] INFO ***********************************
+Thu, 24 Dec 2020 09:36:03 main.py[line:90] INFO **********[Task B1 starts]**********
+Thu, 24 Dec 2020 09:36:03 helper.py[line:796] INFO ==========[Model training (CNN) starts]==========
+Thu, 24 Dec 2020 09:36:03 helper.py[line:797] INFO [Task]: B1
+Thu, 24 Dec 2020 09:49:31 helper.py[line:884] INFO [Execution time]: 00:13:28
+Thu, 24 Dec 2020 09:49:31 helper.py[line:885] INFO ==========[Model training (CNN) ends]==========
+Thu, 24 Dec 2020 09:49:56 main.py[line:104] INFO **********[Task B1 ends]**********
+Thu, 24 Dec 2020 09:49:56 main.py[line:105] INFO ***********************************
+Thu, 24 Dec 2020 09:49:56 main.py[line:108] INFO **********[Task B2 starts]**********
+Thu, 24 Dec 2020 09:49:56 helper.py[line:796] INFO ==========[Model training (CNN) starts]==========
+Thu, 24 Dec 2020 09:49:56 helper.py[line:797] INFO [Task]: B2
+Thu, 24 Dec 2020 09:58:52 helper.py[line:884] INFO [Execution time]: 00:08:56
+Thu, 24 Dec 2020 09:58:52 helper.py[line:885] INFO ==========[Model training (CNN) ends]==========
+Thu, 24 Dec 2020 09:59:16 main.py[line:122] INFO **********[Task B2 ends]**********
+Thu, 24 Dec 2020 09:59:16 main.py[line:123] INFO ***********************************
+Thu, 24 Dec 2020 09:59:16 main.py[line:135] INFO [Total execution time]: 11:42:21
+Thu, 24 Dec 2020 09:59:16 main.py[line:137] INFO *****************************************
+Thu, 24 Dec 2020 09:59:16 main.py[line:138] INFO ***********[Main program ends]***********
+Thu, 24 Dec 2020 09:59:16 main.py[line:139] INFO *****************************************
+

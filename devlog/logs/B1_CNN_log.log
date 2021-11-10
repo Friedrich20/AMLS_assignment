@@ -1,0 +1,200 @@
+Wed, 16 Dec 2020 23:38:31 main.py[line:40] INFO *****************************************
+Wed, 16 Dec 2020 23:38:31 main.py[line:41] INFO **********[Main program starts]**********
+Wed, 16 Dec 2020 23:38:31 main.py[line:42] INFO *****************************************
+
+Wed, 16 Dec 2020 23:38:31 main.py[line:90] INFO **********[Task B1 starts]**********
+Wed, 16 Dec 2020 23:38:31 helper.py[line:785] INFO ==========[Model training (CNN) starts]==========
+Wed, 16 Dec 2020 23:38:31 helper.py[line:786] INFO [Task]: B1
+Wed, 16 Dec 2020 23:56:35 helper.py[line:873] INFO [Execution time]: 00:18:03
+Wed, 16 Dec 2020 23:56:35 helper.py[line:874] INFO ==========[Model training (CNN) ends]==========
+Wed, 16 Dec 2020 23:56:58 helper.py[line:923] INFO [Confusion matrix]: [[531  11   1  17  19]
+ [ 31 525   0  27  19]
+ [  0   0 583   1   1]
+ [  9   4   0 583  23]
+ [  0   0   0   2 613]]
+Wed, 16 Dec 2020 23:56:58 helper.py[line:924] INFO [Accuracy Score]: 0.945
+Wed, 16 Dec 2020 23:56:58 helper.py[line:942] INFO [Normalized confusion matrix]: [[0.99863382 0.02068733 0.00188067 0.03197133 0.03573266]
+ [0.05882914 0.9963     0.         0.05123829 0.03605657]
+ [0.         0.         0.99999706 0.00171526 0.00171526]
+ [0.0154232  0.00685475 0.         0.99908038 0.03941483]
+ [0.         0.         0.         0.00326263 0.99999468]]
+Wed, 16 Dec 2020 23:57:39 main.py[line:104] INFO **********[Task B1 ends]**********
+Wed, 16 Dec 2020 23:57:39 main.py[line:105] INFO ***********************************
+Wed, 16 Dec 2020 23:57:39 main.py[line:135] INFO [Total execution time]: 00:19:08
+Wed, 16 Dec 2020 23:57:39 main.py[line:137] INFO *****************************************
+Wed, 16 Dec 2020 23:57:39 main.py[line:138] INFO ***********[Main program ends]***********
+Wed, 16 Dec 2020 23:57:39 main.py[line:139] INFO *****************************************
+
+(base) 
+# friedrich @ Friedrich-MBP in ~/Projects/GitHub/AMLS_assignment20_21/AMLS_20-21_SN20043715 on git:master x [23:38:23] 
+$ source /Users/friedrich/opt/anaconda3/bin/activate
+conda activate mls_lab                                                                                                                                                              
+(base) 
+# friedrich @ Friedrich-MBP in ~/Projects/GitHub/AMLS_assignment20_21/AMLS_20-21_SN20043715 on git:master x [23:38:24] 
+$ conda activate mls_lab
+(mls_lab) 
+# friedrich @ Friedrich-MBP in ~/Projects/GitHub/AMLS_assignment20_21/AMLS_20-21_SN20043715 on git:master x [23:38:24] 
+$ /Users/friedrich/opt/anaconda3/envs/mls_lab/bin/python /Users/friedrich/Projects/GitHub/AMLS_assignment20_21/AMLS_20-21_SN20043715/main.py
+Using TensorFlow backend.
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/pandas/core/indexing.py:1745: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  isetter(ilocs[0], value)
+Found 4900 validated image filenames belonging to 5 classes.
+Found 2100 validated image filenames belonging to 5 classes.
+Found 2100 validated image filenames belonging to 5 classes.
+Found 3000 validated image filenames belonging to 5 classes.
+2020-12-16 23:38:31.733732: I tensorflow/core/platform/cpu_feature_guard.cc:145] This TensorFlow binary is optimized with Intel(R) MKL-DNN to use the following CPU instructions in performance critical operations:  SSE4.1 SSE4.2 AVX AVX2 FMA
+To enable them in non-MKL-DNN operations, rebuild TensorFlow with the appropriate compiler flags.
+2020-12-16 23:38:31.734615: I tensorflow/core/common_runtime/process_util.cc:115] Creating new thread pool with default inter op setting: 8. Tune using inter_op_parallelism_threads for best performance.
+Model: "sequential_1"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+conv2d_1 (Conv2D)            (None, 32, 32, 16)        448       
+_________________________________________________________________
+batch_normalization_1 (Batch (None, 32, 32, 16)        64        
+_________________________________________________________________
+max_pooling2d_1 (MaxPooling2 (None, 16, 16, 16)        0         
+_________________________________________________________________
+conv2d_2 (Conv2D)            (None, 16, 16, 32)        4640      
+_________________________________________________________________
+batch_normalization_2 (Batch (None, 16, 16, 32)        128       
+_________________________________________________________________
+max_pooling2d_2 (MaxPooling2 (None, 8, 8, 32)          0         
+_________________________________________________________________
+conv2d_3 (Conv2D)            (None, 8, 8, 64)          18496     
+_________________________________________________________________
+batch_normalization_3 (Batch (None, 8, 8, 64)          256       
+_________________________________________________________________
+max_pooling2d_3 (MaxPooling2 (None, 4, 4, 64)          0         
+_________________________________________________________________
+conv2d_4 (Conv2D)            (None, 4, 4, 128)         73856     
+_________________________________________________________________
+batch_normalization_4 (Batch (None, 4, 4, 128)         512       
+_________________________________________________________________
+max_pooling2d_4 (MaxPooling2 (None, 2, 2, 128)         0         
+_________________________________________________________________
+flatten_1 (Flatten)          (None, 512)               0         
+_________________________________________________________________
+dense_1 (Dense)              (None, 64)                32832     
+_________________________________________________________________
+dropout_1 (Dropout)          (None, 64)                0         
+_________________________________________________________________
+dense_2 (Dense)              (None, 5)                 325       
+=================================================================
+Total params: 131,557
+Trainable params: 131,077
+Non-trainable params: 480
+_________________________________________________________________
+Epoch 1/30
+153/153 [==============================] - 40s 265ms/step - loss: 1.6652 - accuracy: 0.2143 - val_loss: 1.6764 - val_accuracy: 0.1880
+
+Epoch 00001: val_loss improved from inf to 1.67638, saving model to /Users/friedrich/Projects/GitHub/AMLS_assignment20_21/AMLS_20-21_SN20043715/B1/B1_CNN_model.h5
+Epoch 2/30
+153/153 [==============================] - 40s 263ms/step - loss: 1.5258 - accuracy: 0.2594 - val_loss: 1.5780 - val_accuracy: 0.2094
+
+Epoch 00002: val_loss improved from 1.67638 to 1.57801, saving model to /Users/friedrich/Projects/GitHub/AMLS_assignment20_21/AMLS_20-21_SN20043715/B1/B1_CNN_model.h5
+Epoch 3/30
+153/153 [==============================] - 40s 259ms/step - loss: 1.3461 - accuracy: 0.3572 - val_loss: 1.4960 - val_accuracy: 0.2950
+
+Epoch 00003: val_loss improved from 1.57801 to 1.49600, saving model to /Users/friedrich/Projects/GitHub/AMLS_assignment20_21/AMLS_20-21_SN20043715/B1/B1_CNN_model.h5
+Epoch 4/30
+153/153 [==============================] - 39s 257ms/step - loss: 1.2319 - accuracy: 0.3944 - val_loss: 1.2508 - val_accuracy: 0.3574
+
+Epoch 00004: val_loss improved from 1.49600 to 1.25080, saving model to /Users/friedrich/Projects/GitHub/AMLS_assignment20_21/AMLS_20-21_SN20043715/B1/B1_CNN_model.h5
+Epoch 5/30
+153/153 [==============================] - 39s 257ms/step - loss: 1.1902 - accuracy: 0.4187 - val_loss: 0.9085 - val_accuracy: 0.4932
+
+Epoch 00005: val_loss improved from 1.25080 to 0.90849, saving model to /Users/friedrich/Projects/GitHub/AMLS_assignment20_21/AMLS_20-21_SN20043715/B1/B1_CNN_model.h5
+Epoch 6/30
+153/153 [==============================] - 31s 200ms/step - loss: 1.1117 - accuracy: 0.4667 - val_loss: 1.0429 - val_accuracy: 0.5198
+
+Epoch 00006: val_loss did not improve from 0.90849
+Epoch 7/30
+153/153 [==============================] - 30s 195ms/step - loss: 0.9838 - accuracy: 0.5386 - val_loss: 1.2386 - val_accuracy: 0.4052
+
+Epoch 00007: val_loss did not improve from 0.90849
+Epoch 8/30
+153/153 [==============================] - 30s 195ms/step - loss: 0.8269 - accuracy: 0.6050 - val_loss: 0.6377 - val_accuracy: 0.5986
+
+Epoch 00008: val_loss improved from 0.90849 to 0.63773, saving model to /Users/friedrich/Projects/GitHub/AMLS_assignment20_21/AMLS_20-21_SN20043715/B1/B1_CNN_model.h5
+Epoch 9/30
+153/153 [==============================] - 32s 210ms/step - loss: 0.7530 - accuracy: 0.6288 - val_loss: 0.6636 - val_accuracy: 0.6586
+
+Epoch 00009: val_loss did not improve from 0.63773
+Epoch 10/30
+153/153 [==============================] - 35s 230ms/step - loss: 0.6532 - accuracy: 0.6952 - val_loss: 0.5995 - val_accuracy: 0.7384
+
+Epoch 00010: val_loss improved from 0.63773 to 0.59952, saving model to /Users/friedrich/Projects/GitHub/AMLS_assignment20_21/AMLS_20-21_SN20043715/B1/B1_CNN_model.h5
+Epoch 11/30
+153/153 [==============================] - 37s 241ms/step - loss: 0.5737 - accuracy: 0.7418 - val_loss: 0.5144 - val_accuracy: 0.7732
+
+Epoch 00011: val_loss improved from 0.59952 to 0.51441, saving model to /Users/friedrich/Projects/GitHub/AMLS_assignment20_21/AMLS_20-21_SN20043715/B1/B1_CNN_model.h5
+Epoch 12/30
+153/153 [==============================] - 37s 243ms/step - loss: 0.4779 - accuracy: 0.7983 - val_loss: 0.4394 - val_accuracy: 0.8636
+
+Epoch 00012: val_loss improved from 0.51441 to 0.43936, saving model to /Users/friedrich/Projects/GitHub/AMLS_assignment20_21/AMLS_20-21_SN20043715/B1/B1_CNN_model.h5
+Epoch 13/30
+153/153 [==============================] - 37s 244ms/step - loss: 0.3904 - accuracy: 0.8445 - val_loss: 0.7271 - val_accuracy: 0.8138
+
+Epoch 00013: val_loss did not improve from 0.43936
+Epoch 14/30
+153/153 [==============================] - 38s 246ms/step - loss: 0.3472 - accuracy: 0.8628 - val_loss: 0.9052 - val_accuracy: 0.7805
+
+Epoch 00014: val_loss did not improve from 0.43936
+Epoch 15/30
+153/153 [==============================] - 37s 242ms/step - loss: 0.3017 - accuracy: 0.8868 - val_loss: 0.5114 - val_accuracy: 0.9047
+
+Epoch 00015: val_loss did not improve from 0.43936
+Epoch 16/30
+153/153 [==============================] - 37s 245ms/step - loss: 0.2679 - accuracy: 0.9024 - val_loss: 0.1852 - val_accuracy: 0.8694
+
+Epoch 00016: val_loss improved from 0.43936 to 0.18519, saving model to /Users/friedrich/Projects/GitHub/AMLS_assignment20_21/AMLS_20-21_SN20043715/B1/B1_CNN_model.h5
+Epoch 17/30
+153/153 [==============================] - 37s 244ms/step - loss: 0.2443 - accuracy: 0.9094 - val_loss: 0.4934 - val_accuracy: 0.9130
+
+Epoch 00017: val_loss did not improve from 0.18519
+Epoch 18/30
+153/153 [==============================] - 37s 242ms/step - loss: 0.2208 - accuracy: 0.9238 - val_loss: 0.1422 - val_accuracy: 0.8738
+
+Epoch 00018: val_loss improved from 0.18519 to 0.14223, saving model to /Users/friedrich/Projects/GitHub/AMLS_assignment20_21/AMLS_20-21_SN20043715/B1/B1_CNN_model.h5
+Epoch 19/30
+153/153 [==============================] - 38s 247ms/step - loss: 0.2021 - accuracy: 0.9281 - val_loss: 0.0487 - val_accuracy: 0.9362
+
+Epoch 00019: val_loss improved from 0.14223 to 0.04872, saving model to /Users/friedrich/Projects/GitHub/AMLS_assignment20_21/AMLS_20-21_SN20043715/B1/B1_CNN_model.h5
+Epoch 20/30
+153/153 [==============================] - 38s 249ms/step - loss: 0.1658 - accuracy: 0.9452 - val_loss: 0.0059 - val_accuracy: 0.9429
+
+Epoch 00020: val_loss improved from 0.04872 to 0.00589, saving model to /Users/friedrich/Projects/GitHub/AMLS_assignment20_21/AMLS_20-21_SN20043715/B1/B1_CNN_model.h5
+Epoch 21/30
+153/153 [==============================] - 38s 247ms/step - loss: 0.1514 - accuracy: 0.9486 - val_loss: 0.1845 - val_accuracy: 0.9241
+
+Epoch 00021: val_loss did not improve from 0.00589
+Epoch 22/30
+153/153 [==============================] - 38s 246ms/step - loss: 0.1501 - accuracy: 0.9501 - val_loss: 0.2036 - val_accuracy: 0.9352
+
+Epoch 00022: val_loss did not improve from 0.00589
+Epoch 23/30
+153/153 [==============================] - 38s 246ms/step - loss: 0.1242 - accuracy: 0.9544 - val_loss: 0.3601 - val_accuracy: 0.9391
+
+Epoch 00023: val_loss did not improve from 0.00589
+Epoch 24/30
+153/153 [==============================] - 37s 239ms/step - loss: 0.1164 - accuracy: 0.9610 - val_loss: 0.3292 - val_accuracy: 0.9347
+
+Epoch 00024: val_loss did not improve from 0.00589
+Epoch 25/30
+153/153 [==============================] - 37s 239ms/step - loss: 0.1115 - accuracy: 0.9604 - val_loss: 0.1826 - val_accuracy: 0.9444
+
+Epoch 00025: val_loss did not improve from 0.00589
+Epoch 00025: early stopping
+65/65 [==============================] - 0s 6ms/step
+Training accuracy: 0.9846153855323792
+3000/3000 [==============================] - 20s 7ms/step
+2020-12-16 23:56:58.899 python[63493:1689855] IMKClient Stall detected, *please Report* your user scenario attaching a spindump (or sysdiagnose) that captures the problem - (imkxpc_bundleIdentifierWithReply:) block performed very slowly (15.52 secs).
+TB1:0.9846153855323792,0.945
+(mls_lab) 
+# friedrich @ Friedrich-MBP in ~/Projects/GitHub/AMLS_assignment20_21/AMLS_20-21_SN20043715 on git:master x [23:57:40] 
+$ 

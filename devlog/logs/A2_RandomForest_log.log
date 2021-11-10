@@ -1,0 +1,877 @@
+Wed, 16 Dec 2020 23:06:34 main.py[line:40] INFO *****************************************
+Wed, 16 Dec 2020 23:06:34 main.py[line:41] INFO **********[Main program starts]**********
+Wed, 16 Dec 2020 23:06:34 main.py[line:42] INFO *****************************************
+
+Wed, 16 Dec 2020 23:06:34 main.py[line:69] INFO **********[Task A2 starts]**********
+Wed, 16 Dec 2020 23:06:34 helper.py[line:332] INFO ==========[Data Preparation starts]==========
+Wed, 16 Dec 2020 23:06:34 helper.py[line:340] INFO Data have been collected from /Users/friedrich/Projects/GitHub/AMLS_assignment20_21/AMLS_20-21_SN20043715/A2/A2_dataset.csv.
+Wed, 16 Dec 2020 23:06:34 helper.py[line:341] INFO ==========[Data Preparation ends]==========
+Wed, 16 Dec 2020 23:06:34 helper.py[line:355] INFO ==========[Feature selection starts]==========
+Wed, 16 Dec 2020 23:06:35 helper.py[line:363] INFO [Original features amount]: 136
+Wed, 16 Dec 2020 23:06:35 helper.py[line:364] INFO [Selected features amount]: 68
+Wed, 16 Dec 2020 23:06:35 helper.py[line:366] INFO ==========[Feature selection ends]==========
+Wed, 16 Dec 2020 23:06:35 helper.py[line:382] INFO ==========[Model training starts]==========
+Wed, 16 Dec 2020 23:06:35 helper.py[line:383] INFO [Task]: A2
+Wed, 16 Dec 2020 23:06:35 helper.py[line:384] INFO [Model]: RandomForest
+Wed, 16 Dec 2020 23:06:35 helper.py[line:397] INFO [Model]: No model has been found for this task.
+Wed, 16 Dec 2020 23:06:35 helper.py[line:398] INFO Starting to train a new one...
+Wed, 16 Dec 2020 23:07:09 helper.py[line:450] INFO ====================
+Wed, 16 Dec 2020 23:07:09 helper.py[line:453] INFO [Best Parameters]: {'max_features': 10, 'n_estimators': 71}
+Wed, 16 Dec 2020 23:07:09 helper.py[line:454] INFO [Best Test Score]: 0.888266630540236
+Wed, 16 Dec 2020 23:07:09 helper.py[line:456] INFO [Best Training Score]: 1.0
+Wed, 16 Dec 2020 23:07:09 helper.py[line:470] INFO [Feature Importances]: [(0.13554620350551158, 'feature_50'), (0.10972583670482701, 'feature_54'), (0.10644087336693991, 'feature_63'), (0.06761786767604754, 'feature_65'), (0.03492797721032406, 'feature_68'), (0.02795785965305825, 'feature_13'), (0.027245516291121593, 'feature_67'), (0.026111557880296864, 'feature_56'), (0.02534964756949211, 'feature_14'), (0.023204307105803797, 'feature_66'), (0.019899015873502863, 'feature_60'), (0.01953119994832329, 'feature_61'), (0.01591644338712552, 'feature_15'), (0.013706059835223449, 'feature_58'), (0.013441308921811895, 'feature_59'), (0.011363139807630929, 'feature_57'), (0.011085602557876459, 'feature_47'), (0.008475479353755568, 'feature_48'), (0.007941569831064187, 'feature_32'), (0.007754240897415396, 'feature_4'), (0.0075224980033219745, 'feature_31'), (0.007242021059335767, 'feature_46'), (0.0072200083953631675, 'feature_39'), (0.007217298724751445, 'feature_5'), (0.007204709474323942, 'feature_11'), (0.007116689527305199, 'feature_35'), (0.00701472420438068, 'feature_17'), (0.00694985207049141, 'feature_36'), (0.006740937777081426, 'feature_1'), (0.006672042921459441, 'feature_28'), (0.0066396669644735815, 'feature_40'), (0.006598846219094097, 'feature_23'), (0.006541043826507725, 'feature_27'), (0.006506086068949379, 'feature_29'), (0.0065055615976136565, 'feature_7'), (0.006405919999629232, 'feature_33'), (0.006356270020791615, 'feature_25'), (0.006323911369258299, 'feature_26'), (0.0063089380890365395, 'feature_3'), (0.006235803042746731, 'feature_21'), (0.006164594245870148, 'feature_19'), (0.006130257148304174, 'feature_42'), (0.006056572540974297, 'feature_34'), (0.006031782729348665, 'feature_52'), (0.006016631206381557, 'feature_20'), (0.005987235126483895, 'feature_55'), (0.005982881604109054, 'feature_30'), (0.005969991264645839, 'feature_43'), (0.005855277346277473, 'feature_8'), (0.005765317627893774, 'feature_2'), (0.0057219488188345845, 'feature_18'), (0.005630075726558078, 'feature_44'), (0.00547428689663321, 'feature_10'), (0.005411916253475508, 'feature_24'), (0.005355549710512841, 'feature_16'), (0.005342577381596091, 'feature_51'), (0.005312889439804193, 'feature_6'), (0.005163671328039809, 'feature_12'), (0.005133472638983233, 'feature_22'), (0.00510333156301016, 'feature_9'), (0.0050160582245093125, 'feature_49'), (0.004934763754981559, 'feature_62'), (0.004770346639694027, 'feature_38'), (0.0047694135708793274, 'feature_37'), (0.004728905842797672, 'feature_45'), (0.004664871964621551, 'feature_53'), (0.004581298083120107, 'feature_41'), (0.004359544588592423, 'feature_64')]
+Wed, 16 Dec 2020 23:07:09 helper.py[line:485] INFO [Execution time]: 00:00:34
+Wed, 16 Dec 2020 23:07:09 helper.py[line:486] INFO ==========[Model training ends]==========
+Wed, 16 Dec 2020 23:07:09 main.py[line:86] INFO **********[Task A2 ends]**********
+Wed, 16 Dec 2020 23:07:09 main.py[line:87] INFO ***********************************
+Wed, 16 Dec 2020 23:07:09 main.py[line:135] INFO [Total execution time]: 00:00:34
+Wed, 16 Dec 2020 23:07:09 main.py[line:137] INFO *****************************************
+Wed, 16 Dec 2020 23:07:09 main.py[line:138] INFO ***********[Main program ends]***********
+Wed, 16 Dec 2020 23:07:09 main.py[line:139] INFO *****************************************
+
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=7, n_estimators=91, score=(train=1.000, test=0.874), total=   0.8s
+[Parallel(n_jobs=-1)]: Done 376 tasks      | elapsed:   21.2s
+[CV] max_features=7, n_estimators=101 ................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=7, n_estimators=91, score=(train=1.000, test=0.888), total=   0.8s
+[Parallel(n_jobs=-1)]: Done 377 tasks      | elapsed:   21.5s
+[CV] max_features=7, n_estimators=101 ................................
+[CV]  max_features=7, n_estimators=91, score=(train=1.000, test=0.892), total=   0.8s
+[Parallel(n_jobs=-1)]: Done 378 tasks      | elapsed:   21.5s
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV] max_features=8, n_estimators=1 ..................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=8, n_estimators=1, score=(train=0.928, test=0.795), total=   0.0s
+[Parallel(n_jobs=-1)]: Done 379 tasks      | elapsed:   21.6s
+[CV] max_features=8, n_estimators=1 ..................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=8, n_estimators=1, score=(train=0.936, test=0.814), total=   0.0s
+[Parallel(n_jobs=-1)]: Done 380 tasks      | elapsed:   21.6s
+[CV] max_features=8, n_estimators=1 ..................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=8, n_estimators=1, score=(train=0.934, test=0.820), total=   0.0s
+[Parallel(n_jobs=-1)]: Done 381 tasks      | elapsed:   21.6s
+[CV]  max_features=7, n_estimators=91, score=(train=1.000, test=0.896), total=   0.8s
+[Parallel(n_jobs=-1)]: Done 382 tasks      | elapsed:   21.6s
+[CV] max_features=8, n_estimators=1 ..................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=8, n_estimators=1, score=(train=0.936, test=0.843), total=   0.0s
+[Parallel(n_jobs=-1)]: Done 383 tasks      | elapsed:   21.6s
+[CV] max_features=8, n_estimators=1 ..................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV] max_features=8, n_estimators=11 .................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=8, n_estimators=1, score=(train=0.936, test=0.821), total=   0.0s
+[Parallel(n_jobs=-1)]: Done 384 tasks      | elapsed:   21.7s
+[CV] max_features=8, n_estimators=11 .................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=7, n_estimators=91, score=(train=1.000, test=0.876), total=   0.8s
+[Parallel(n_jobs=-1)]: Done 385 tasks      | elapsed:   21.7s
+[CV] max_features=8, n_estimators=11 .................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=8, n_estimators=11, score=(train=0.996, test=0.873), total=   0.1s
+[Parallel(n_jobs=-1)]: Done 386 tasks      | elapsed:   21.8s
+[CV] max_features=8, n_estimators=11 .................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=8, n_estimators=11, score=(train=0.995, test=0.876), total=   0.1s
+[Parallel(n_jobs=-1)]: Done 387 tasks      | elapsed:   21.8s
+[CV] max_features=8, n_estimators=11 .................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=8, n_estimators=11, score=(train=0.994, test=0.874), total=   0.1s
+[Parallel(n_jobs=-1)]: Done 388 tasks      | elapsed:   21.9s
+[CV] max_features=8, n_estimators=21 .................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=7, n_estimators=101, score=(train=1.000, test=0.876), total=   0.9s
+[Parallel(n_jobs=-1)]: Done 389 tasks      | elapsed:   21.9s
+[CV] max_features=8, n_estimators=21 .................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=8, n_estimators=11, score=(train=0.997, test=0.885), total=   0.1s
+[Parallel(n_jobs=-1)]: Done 390 tasks      | elapsed:   21.9s
+[CV] max_features=8, n_estimators=21 .................................
+[CV]  max_features=8, n_estimators=11, score=(train=0.993, test=0.871), total=   0.1s
+[Parallel(n_jobs=-1)]: Done 391 tasks      | elapsed:   21.9s
+[CV] max_features=8, n_estimators=21 .................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=7, n_estimators=101, score=(train=1.000, test=0.886), total=   0.9s
+[Parallel(n_jobs=-1)]: Done 392 tasks      | elapsed:   22.0s
+[CV] max_features=8, n_estimators=21 .................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=7, n_estimators=101, score=(train=1.000, test=0.885), total=   0.9s
+[Parallel(n_jobs=-1)]: Done 393 tasks      | elapsed:   22.1s
+[CV]  max_features=8, n_estimators=21, score=(train=0.997, test=0.869), total=   0.2s
+[Parallel(n_jobs=-1)]: Done 394 tasks      | elapsed:   22.1s
+[CV] max_features=8, n_estimators=31 .................................
+[CV]  max_features=8, n_estimators=21, score=(train=0.999, test=0.882), total=   0.2s
+[Parallel(n_jobs=-1)]: Done 395 tasks      | elapsed:   22.1s
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV] max_features=8, n_estimators=31 .................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=8, n_estimators=21, score=(train=0.998, test=0.877), total=   0.2s
+[Parallel(n_jobs=-1)]: Done 396 tasks      | elapsed:   22.1s
+[CV] max_features=8, n_estimators=31 .................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV] max_features=8, n_estimators=31 .................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=8, n_estimators=21, score=(train=0.998, test=0.880), total=   0.2s
+[Parallel(n_jobs=-1)]: Done 397 tasks      | elapsed:   22.2s
+[CV] max_features=8, n_estimators=31 .................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=7, n_estimators=101, score=(train=1.000, test=0.899), total=   0.9s
+[Parallel(n_jobs=-1)]: Done 398 tasks      | elapsed:   22.2s
+[CV]  max_features=8, n_estimators=21, score=(train=0.998, test=0.874), total=   0.2s
+[Parallel(n_jobs=-1)]: Done 399 tasks      | elapsed:   22.2s
+[CV] max_features=8, n_estimators=41 .................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV] max_features=8, n_estimators=41 .................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=8, n_estimators=31, score=(train=1.000, test=0.889), total=   0.3s
+[Parallel(n_jobs=-1)]: Done 400 tasks      | elapsed:   22.4s
+[CV]  max_features=8, n_estimators=31, score=(train=1.000, test=0.883), total=   0.3s
+[Parallel(n_jobs=-1)]: Done 401 tasks      | elapsed:   22.4s
+[CV] max_features=8, n_estimators=41 .................................
+[CV] max_features=8, n_estimators=41 .................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=7, n_estimators=101, score=(train=1.000, test=0.874), total=   0.9s
+[CV]  max_features=8, n_estimators=31, score=(train=0.999, test=0.885), total=   0.3s
+[Parallel(n_jobs=-1)]: Done 402 tasks      | elapsed:   22.4s
+[Parallel(n_jobs=-1)]: Done 403 tasks      | elapsed:   22.5s
+[CV] max_features=8, n_estimators=41 .................................
+[CV] max_features=8, n_estimators=51 .................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=8, n_estimators=31, score=(train=0.999, test=0.862), total=   0.3s
+[Parallel(n_jobs=-1)]: Done 404 tasks      | elapsed:   22.5s
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=8, n_estimators=31, score=(train=0.999, test=0.891), total=   0.3s
+[Parallel(n_jobs=-1)]: Done 405 tasks      | elapsed:   22.5s
+[CV] max_features=8, n_estimators=51 .................................
+[CV] max_features=8, n_estimators=51 .................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=8, n_estimators=41, score=(train=1.000, test=0.882), total=   0.4s
+[CV]  max_features=8, n_estimators=41, score=(train=1.000, test=0.877), total=   0.4s
+[Parallel(n_jobs=-1)]: Done 406 tasks      | elapsed:   22.6s
+[Parallel(n_jobs=-1)]: Done 407 tasks      | elapsed:   22.6s
+[CV] max_features=8, n_estimators=51 .................................
+[CV] max_features=8, n_estimators=51 .................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=8, n_estimators=41, score=(train=1.000, test=0.891), total=   0.4s
+[Parallel(n_jobs=-1)]: Done 408 tasks      | elapsed:   22.8s
+[CV]  max_features=8, n_estimators=41, score=(train=1.000, test=0.888), total=   0.4s
+[Parallel(n_jobs=-1)]: Done 409 tasks      | elapsed:   22.8s
+[CV] max_features=8, n_estimators=61 .................................
+[CV] max_features=8, n_estimators=61 .................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=8, n_estimators=41, score=(train=1.000, test=0.870), total=   0.4s
+[Parallel(n_jobs=-1)]: Done 410 tasks      | elapsed:   22.9s
+[CV] max_features=8, n_estimators=61 .................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=8, n_estimators=51, score=(train=1.000, test=0.882), total=   0.4s
+[Parallel(n_jobs=-1)]: Done 411 tasks      | elapsed:   22.9s
+[CV]  max_features=8, n_estimators=51, score=(train=1.000, test=0.886), total=   0.5s
+[Parallel(n_jobs=-1)]: Done 412 tasks      | elapsed:   23.0s
+[CV] max_features=8, n_estimators=61 .................................
+[CV]  max_features=8, n_estimators=51, score=(train=1.000, test=0.877), total=   0.5s
+[Parallel(n_jobs=-1)]: Done 413 tasks      | elapsed:   23.0s
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV] max_features=8, n_estimators=61 .................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV] max_features=8, n_estimators=71 .................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=8, n_estimators=51, score=(train=1.000, test=0.871), total=   0.5s
+[Parallel(n_jobs=-1)]: Done 414 tasks      | elapsed:   23.2s
+[CV] max_features=8, n_estimators=71 .................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=8, n_estimators=51, score=(train=1.000, test=0.899), total=   0.5s
+[Parallel(n_jobs=-1)]: Done 415 tasks      | elapsed:   23.2s
+[CV] max_features=8, n_estimators=71 .................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=8, n_estimators=61, score=(train=1.000, test=0.876), total=   0.5s
+[Parallel(n_jobs=-1)]: Done 416 tasks      | elapsed:   23.4s
+[CV]  max_features=8, n_estimators=61, score=(train=1.000, test=0.885), total=   0.5s
+[Parallel(n_jobs=-1)]: Done 417 tasks      | elapsed:   23.4s
+[CV] max_features=8, n_estimators=71 .................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV] max_features=8, n_estimators=71 .................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=8, n_estimators=61, score=(train=1.000, test=0.880), total=   0.5s
+[Parallel(n_jobs=-1)]: Done 418 tasks      | elapsed:   23.5s
+[CV] max_features=8, n_estimators=81 .................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=8, n_estimators=61, score=(train=1.000, test=0.899), total=   0.6s
+[Parallel(n_jobs=-1)]: Done 419 tasks      | elapsed:   23.6s
+[CV]  max_features=8, n_estimators=61, score=(train=1.000, test=0.867), total=   0.5s
+[Parallel(n_jobs=-1)]: Done 420 tasks      | elapsed:   23.6s
+[CV] max_features=8, n_estimators=81 .................................
+[CV] max_features=8, n_estimators=81 .................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=8, n_estimators=71, score=(train=1.000, test=0.883), total=   0.6s
+[Parallel(n_jobs=-1)]: Done 421 tasks      | elapsed:   23.7s
+[CV] max_features=8, n_estimators=81 .................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=8, n_estimators=71, score=(train=1.000, test=0.891), total=   0.6s
+[Parallel(n_jobs=-1)]: Done 422 tasks      | elapsed:   23.8s
+[CV]  max_features=8, n_estimators=71, score=(train=1.000, test=0.886), total=   0.6s
+[Parallel(n_jobs=-1)]: Done 423 tasks      | elapsed:   23.8s
+[CV] max_features=8, n_estimators=81 .................................
+[CV] max_features=8, n_estimators=91 .................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=8, n_estimators=71, score=(train=1.000, test=0.862), total=   0.6s
+[Parallel(n_jobs=-1)]: Done 424 tasks      | elapsed:   24.1s
+[CV] max_features=8, n_estimators=91 .................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=8, n_estimators=71, score=(train=1.000, test=0.907), total=   0.6s
+[Parallel(n_jobs=-1)]: Done 425 tasks      | elapsed:   24.1s
+[CV] max_features=8, n_estimators=91 .................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=8, n_estimators=81, score=(train=1.000, test=0.879), total=   0.7s
+[Parallel(n_jobs=-1)]: Done 426 tasks      | elapsed:   24.2s
+[CV] max_features=8, n_estimators=91 .................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=8, n_estimators=81, score=(train=1.000, test=0.891), total=   0.7s
+[Parallel(n_jobs=-1)]: Done 427 tasks      | elapsed:   24.3s
+[CV]  max_features=8, n_estimators=81, score=(train=1.000, test=0.885), total=   0.7s
+[Parallel(n_jobs=-1)]: Done 428 tasks      | elapsed:   24.3s
+[CV] max_features=8, n_estimators=91 .................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV] max_features=8, n_estimators=101 ................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=8, n_estimators=81, score=(train=1.000, test=0.905), total=   0.7s
+[Parallel(n_jobs=-1)]: Done 429 tasks      | elapsed:   24.5s
+[CV] max_features=8, n_estimators=101 ................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=8, n_estimators=81, score=(train=1.000, test=0.870), total=   0.7s
+[Parallel(n_jobs=-1)]: Done 430 tasks      | elapsed:   24.6s
+[CV] max_features=8, n_estimators=101 ................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=8, n_estimators=91, score=(train=1.000, test=0.879), total=   0.8s
+[Parallel(n_jobs=-1)]: Done 431 tasks      | elapsed:   24.7s
+[CV] max_features=8, n_estimators=101 ................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=8, n_estimators=91, score=(train=1.000, test=0.892), total=   0.8s
+[Parallel(n_jobs=-1)]: Done 432 tasks      | elapsed:   25.0s
+[CV]  max_features=8, n_estimators=91, score=(train=1.000, test=0.880), total=   0.8s
+[Parallel(n_jobs=-1)]: Done 433 tasks      | elapsed:   25.0s
+[CV] max_features=8, n_estimators=101 ................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV] max_features=9, n_estimators=1 ..................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=9, n_estimators=1, score=(train=0.929, test=0.829), total=   0.0s
+[Parallel(n_jobs=-1)]: Done 434 tasks      | elapsed:   25.0s
+[CV] max_features=9, n_estimators=1 ..................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=9, n_estimators=1, score=(train=0.932, test=0.840), total=   0.0s
+[Parallel(n_jobs=-1)]: Done 435 tasks      | elapsed:   25.1s
+[CV] max_features=9, n_estimators=1 ..................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=9, n_estimators=1, score=(train=0.936, test=0.812), total=   0.0s
+[Parallel(n_jobs=-1)]: Done 436 tasks      | elapsed:   25.1s
+[CV] max_features=9, n_estimators=1 ..................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=9, n_estimators=1, score=(train=0.932, test=0.837), total=   0.0s
+[Parallel(n_jobs=-1)]: Done 437 tasks      | elapsed:   25.1s
+[CV] max_features=9, n_estimators=1 ..................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=9, n_estimators=1, score=(train=0.937, test=0.806), total=   0.0s
+[Parallel(n_jobs=-1)]: Done 438 tasks      | elapsed:   25.2s
+[CV] max_features=9, n_estimators=11 .................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=8, n_estimators=91, score=(train=1.000, test=0.908), total=   0.8s
+[Parallel(n_jobs=-1)]: Done 439 tasks      | elapsed:   25.2s
+[CV] max_features=9, n_estimators=11 .................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=8, n_estimators=91, score=(train=1.000, test=0.876), total=   0.8s
+[Parallel(n_jobs=-1)]: Done 440 tasks      | elapsed:   25.2s
+[CV] max_features=9, n_estimators=11 .................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=9, n_estimators=11, score=(train=0.996, test=0.866), total=   0.1s
+[CV]  max_features=9, n_estimators=11, score=(train=0.996, test=0.880), total=   0.1s
+[Parallel(n_jobs=-1)]: Done 441 tasks      | elapsed:   25.3s
+[CV] max_features=9, n_estimators=11 .................................
+[Parallel(n_jobs=-1)]: Done 442 tasks      | elapsed:   25.3s
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV] max_features=9, n_estimators=11 .................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=8, n_estimators=101, score=(train=1.000, test=0.877), total=   0.9s
+[Parallel(n_jobs=-1)]: Done 443 tasks      | elapsed:   25.4s
+[CV] max_features=9, n_estimators=21 .................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=9, n_estimators=11, score=(train=0.995, test=0.888), total=   0.1s
+[Parallel(n_jobs=-1)]: Done 444 tasks      | elapsed:   25.4s
+[CV] max_features=9, n_estimators=21 .................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=9, n_estimators=11, score=(train=0.993, test=0.888), total=   0.1s
+[Parallel(n_jobs=-1)]: Done 445 tasks      | elapsed:   25.4s
+[CV] max_features=9, n_estimators=21 .................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=9, n_estimators=11, score=(train=0.994, test=0.867), total=   0.1s
+[Parallel(n_jobs=-1)]: Done 446 tasks      | elapsed:   25.5s
+[CV] max_features=9, n_estimators=21 .................................
+[CV]  max_features=8, n_estimators=101, score=(train=1.000, test=0.883), total=   0.9s
+[Parallel(n_jobs=-1)]: Done 447 tasks      | elapsed:   25.5s
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV] max_features=9, n_estimators=21 .................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=9, n_estimators=21, score=(train=0.999, test=0.882), total=   0.2s
+[Parallel(n_jobs=-1)]: Done 448 tasks      | elapsed:   25.6s
+[CV]  max_features=8, n_estimators=101, score=(train=1.000, test=0.885), total=   0.9s
+[Parallel(n_jobs=-1)]: Done 449 tasks      | elapsed:   25.6s
+[CV]  max_features=9, n_estimators=21, score=(train=0.999, test=0.877), total=   0.2s
+[CV] max_features=9, n_estimators=31 .................................
+[Parallel(n_jobs=-1)]: Done 450 tasks      | elapsed:   25.6s
+[CV] max_features=9, n_estimators=31 .................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV] max_features=9, n_estimators=31 .................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=9, n_estimators=21, score=(train=0.998, test=0.882), total=   0.2s
+[Parallel(n_jobs=-1)]: Done 451 tasks      | elapsed:   25.7s
+[CV] max_features=9, n_estimators=31 .................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=9, n_estimators=21, score=(train=0.999, test=0.901), total=   0.2s
+[Parallel(n_jobs=-1)]: Done 452 tasks      | elapsed:   25.7s
+[CV] max_features=9, n_estimators=31 .................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=9, n_estimators=21, score=(train=0.997, test=0.873), total=   0.2s
+[Parallel(n_jobs=-1)]: Done 453 tasks      | elapsed:   25.7s
+[CV] max_features=9, n_estimators=41 .................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=8, n_estimators=101, score=(train=1.000, test=0.904), total=   1.0s
+[Parallel(n_jobs=-1)]: Done 454 tasks      | elapsed:   25.8s
+[CV] max_features=9, n_estimators=41 .................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=9, n_estimators=31, score=(train=0.999, test=0.880), total=   0.3s
+[Parallel(n_jobs=-1)]: Done 455 tasks      | elapsed:   26.0s
+[CV]  max_features=9, n_estimators=31, score=(train=0.999, test=0.883), total=   0.3s
+[Parallel(n_jobs=-1)]: Done 456 tasks      | elapsed:   26.0s
+[CV] max_features=9, n_estimators=41 .................................
+[CV] max_features=9, n_estimators=41 .................................
+[CV]  max_features=9, n_estimators=31, score=(train=1.000, test=0.879), total=   0.3s
+[Parallel(n_jobs=-1)]: Done 457 tasks      | elapsed:   26.0s
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV] max_features=9, n_estimators=41 .................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=9, n_estimators=31, score=(train=0.999, test=0.892), total=   0.3s
+[Parallel(n_jobs=-1)]: Done 458 tasks      | elapsed:   26.0s
+[CV] max_features=9, n_estimators=51 .................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=8, n_estimators=101, score=(train=1.000, test=0.868), total=   1.0s
+[Parallel(n_jobs=-1)]: Done 459 tasks      | elapsed:   26.0s
+[CV]  max_features=9, n_estimators=31, score=(train=1.000, test=0.868), total=   0.3s
+[Parallel(n_jobs=-1)]: Done 460 tasks      | elapsed:   26.0s
+[CV] max_features=9, n_estimators=51 .................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV] max_features=9, n_estimators=51 .................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=9, n_estimators=41, score=(train=1.000, test=0.874), total=   0.4s
+[Parallel(n_jobs=-1)]: Done 461 tasks      | elapsed:   26.2s
+[CV] max_features=9, n_estimators=51 .................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=9, n_estimators=41, score=(train=1.000, test=0.889), total=   0.4s
+[Parallel(n_jobs=-1)]: Done 462 tasks      | elapsed:   26.2s
+[CV] max_features=9, n_estimators=51 .................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=9, n_estimators=41, score=(train=1.000, test=0.889), total=   0.4s
+[Parallel(n_jobs=-1)]: Done 463 tasks      | elapsed:   26.4s
+[CV]  max_features=9, n_estimators=41, score=(train=1.000, test=0.886), total=   0.4s
+[Parallel(n_jobs=-1)]: Done 464 tasks      | elapsed:   26.4s
+[CV]  max_features=9, n_estimators=41, score=(train=1.000, test=0.870), total=   0.4s
+[Parallel(n_jobs=-1)]: Done 465 tasks      | elapsed:   26.4s
+[CV] max_features=9, n_estimators=61 .................................
+[CV] max_features=9, n_estimators=61 .................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV] max_features=9, n_estimators=61 .................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=9, n_estimators=51, score=(train=1.000, test=0.885), total=   0.5s
+[Parallel(n_jobs=-1)]: Done 466 tasks      | elapsed:   26.5s
+[CV]  max_features=9, n_estimators=51, score=(train=1.000, test=0.888), total=   0.5s
+[Parallel(n_jobs=-1)]: Done 467 tasks      | elapsed:   26.6s
+[CV]  max_features=9, n_estimators=51, score=(train=1.000, test=0.870), total=   0.5s
+[Parallel(n_jobs=-1)]: Done 468 tasks      | elapsed:   26.6s
+[CV] max_features=9, n_estimators=61 .................................
+[CV] max_features=9, n_estimators=61 .................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV] max_features=9, n_estimators=71 .................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=9, n_estimators=51, score=(train=1.000, test=0.898), total=   0.5s
+[Parallel(n_jobs=-1)]: Done 469 tasks      | elapsed:   26.7s
+[CV] max_features=9, n_estimators=71 .................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=9, n_estimators=51, score=(train=1.000, test=0.870), total=   0.5s
+[Parallel(n_jobs=-1)]: Done 470 tasks      | elapsed:   26.8s
+[CV] max_features=9, n_estimators=71 .................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=9, n_estimators=61, score=(train=1.000, test=0.874), total=   0.6s
+[Parallel(n_jobs=-1)]: Done 471 tasks      | elapsed:   27.0s
+[CV]  max_features=9, n_estimators=61, score=(train=1.000, test=0.888), total=   0.6s
+[Parallel(n_jobs=-1)]: Done 472 tasks      | elapsed:   27.0s
+[CV]  max_features=9, n_estimators=61, score=(train=1.000, test=0.892), total=   0.6s
+[Parallel(n_jobs=-1)]: Done 473 tasks      | elapsed:   27.0s
+[CV] max_features=9, n_estimators=71 .................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV] max_features=9, n_estimators=71 .................................
+[CV] max_features=9, n_estimators=81 .................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=9, n_estimators=61, score=(train=1.000, test=0.891), total=   0.6s
+[Parallel(n_jobs=-1)]: Done 474 tasks      | elapsed:   27.2s
+[CV]  max_features=9, n_estimators=61, score=(train=0.999, test=0.874), total=   0.6s
+[Parallel(n_jobs=-1)]: Done 475 tasks      | elapsed:   27.2s
+[CV] max_features=9, n_estimators=81 .................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV] max_features=9, n_estimators=81 .................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=9, n_estimators=71, score=(train=1.000, test=0.880), total=   0.7s
+[Parallel(n_jobs=-1)]: Done 476 tasks      | elapsed:   27.3s
+[CV] max_features=9, n_estimators=81 .................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=9, n_estimators=71, score=(train=1.000, test=0.888), total=   0.7s
+[Parallel(n_jobs=-1)]: Done 477 tasks      | elapsed:   27.4s
+[CV] max_features=9, n_estimators=81 .................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=9, n_estimators=71, score=(train=1.000, test=0.889), total=   0.7s
+[Parallel(n_jobs=-1)]: Done 478 tasks      | elapsed:   27.5s
+[CV] max_features=9, n_estimators=91 .................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=9, n_estimators=71, score=(train=1.000, test=0.895), total=   0.7s
+[Parallel(n_jobs=-1)]: Done 479 tasks      | elapsed:   27.8s
+[CV]  max_features=9, n_estimators=71, score=(train=1.000, test=0.870), total=   0.7s
+[Parallel(n_jobs=-1)]: Done 480 tasks      | elapsed:   27.8s
+[CV] max_features=9, n_estimators=91 .................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV] max_features=9, n_estimators=91 .................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=9, n_estimators=81, score=(train=1.000, test=0.876), total=   0.8s
+[Parallel(n_jobs=-1)]: Done 481 tasks      | elapsed:   27.9s
+[CV] max_features=9, n_estimators=91 .................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=9, n_estimators=81, score=(train=1.000, test=0.889), total=   0.8s
+[Parallel(n_jobs=-1)]: Done 482 tasks      | elapsed:   28.0s
+[CV]  max_features=9, n_estimators=81, score=(train=1.000, test=0.871), total=   0.8s
+[CV] max_features=9, n_estimators=91 .................................
+[Parallel(n_jobs=-1)]: Done 483 tasks      | elapsed:   28.1s
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV] max_features=9, n_estimators=101 ................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=9, n_estimators=81, score=(train=1.000, test=0.899), total=   0.8s
+[Parallel(n_jobs=-1)]: Done 484 tasks      | elapsed:   28.2s
+[CV] max_features=9, n_estimators=101 ................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=9, n_estimators=81, score=(train=1.000, test=0.864), total=   0.8s
+[Parallel(n_jobs=-1)]: Done 485 tasks      | elapsed:   28.3s
+[CV] max_features=9, n_estimators=101 ................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=9, n_estimators=91, score=(train=1.000, test=0.876), total=   0.9s
+[Parallel(n_jobs=-1)]: Done 486 tasks      | elapsed:   28.4s
+[CV] max_features=9, n_estimators=101 ................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=9, n_estimators=91, score=(train=1.000, test=0.883), total=   0.9s
+[Parallel(n_jobs=-1)]: Done 487 tasks      | elapsed:   28.7s
+[CV] max_features=9, n_estimators=101 ................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=9, n_estimators=91, score=(train=1.000, test=0.888), total=   0.9s
+[Parallel(n_jobs=-1)]: Done 488 tasks      | elapsed:   28.7s
+[CV] max_features=10, n_estimators=1 .................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=10, n_estimators=1, score=(train=0.936, test=0.851), total=   0.0s
+[Parallel(n_jobs=-1)]: Done 489 tasks      | elapsed:   28.8s
+[CV] max_features=10, n_estimators=1 .................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=10, n_estimators=1, score=(train=0.937, test=0.835), total=   0.0s
+[Parallel(n_jobs=-1)]: Done 490 tasks      | elapsed:   28.8s
+[CV] max_features=10, n_estimators=1 .................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=10, n_estimators=1, score=(train=0.936, test=0.839), total=   0.0s
+[Parallel(n_jobs=-1)]: Done 491 tasks      | elapsed:   28.8s
+[CV] max_features=10, n_estimators=1 .................................
+[CV]  max_features=9, n_estimators=91, score=(train=1.000, test=0.896), total=   0.9s
+[Parallel(n_jobs=-1)]: Done 492 tasks      | elapsed:   28.8s
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=10, n_estimators=1, score=(train=0.939, test=0.831), total=   0.0s
+[Parallel(n_jobs=-1)]: Done 493 tasks      | elapsed:   28.9s
+[CV] max_features=10, n_estimators=1 .................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV] max_features=10, n_estimators=11 ................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=10, n_estimators=1, score=(train=0.934, test=0.822), total=   0.0s
+[Parallel(n_jobs=-1)]: Done 494 tasks      | elapsed:   28.9s
+[CV] max_features=10, n_estimators=11 ................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=9, n_estimators=91, score=(train=1.000, test=0.870), total=   0.9s
+[Parallel(n_jobs=-1)]: Done 495 tasks      | elapsed:   29.0s
+[CV] max_features=10, n_estimators=11 ................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=10, n_estimators=11, score=(train=0.990, test=0.879), total=   0.1s
+[Parallel(n_jobs=-1)]: Done 496 tasks      | elapsed:   29.0s
+[CV] max_features=10, n_estimators=11 ................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=10, n_estimators=11, score=(train=0.993, test=0.869), total=   0.1s
+[Parallel(n_jobs=-1)]: Done 497 tasks      | elapsed:   29.0s
+[CV] max_features=10, n_estimators=11 ................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=10, n_estimators=11, score=(train=0.997, test=0.882), total=   0.1s
+[Parallel(n_jobs=-1)]: Done 498 tasks      | elapsed:   29.1s
+[CV]  max_features=9, n_estimators=101, score=(train=1.000, test=0.882), total=   1.0s
+[Parallel(n_jobs=-1)]: Done 499 tasks      | elapsed:   29.1s
+[CV]  max_features=10, n_estimators=11, score=(train=0.996, test=0.891), total=   0.1s
+[Parallel(n_jobs=-1)]: Done 500 tasks      | elapsed:   29.2s
+[CV] max_features=10, n_estimators=21 ................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV] max_features=10, n_estimators=21 ................................
+[CV] max_features=10, n_estimators=21 ................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=10, n_estimators=11, score=(train=0.995, test=0.855), total=   0.1s
+[Parallel(n_jobs=-1)]: Done 501 tasks      | elapsed:   29.2s
+[CV] max_features=10, n_estimators=21 ................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=9, n_estimators=101, score=(train=1.000, test=0.889), total=   1.0s
+[Parallel(n_jobs=-1)]: Done 502 tasks      | elapsed:   29.2s
+[CV] max_features=10, n_estimators=21 ................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=9, n_estimators=101, score=(train=1.000, test=0.883), total=   1.0s
+[Parallel(n_jobs=-1)]: Done 503 tasks      | elapsed:   29.3s
+[CV] max_features=10, n_estimators=31 ................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=10, n_estimators=21, score=(train=1.000, test=0.877), total=   0.2s
+[Parallel(n_jobs=-1)]: Done 504 tasks      | elapsed:   29.4s
+[CV]  max_features=10, n_estimators=21, score=(train=0.998, test=0.885), total=   0.2s
+[Parallel(n_jobs=-1)]: Done 505 tasks      | elapsed:   29.4s
+[CV] max_features=10, n_estimators=31 ................................
+[CV] max_features=10, n_estimators=31 ................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=10, n_estimators=21, score=(train=0.999, test=0.864), total=   0.2s
+[Parallel(n_jobs=-1)]: Done 506 tasks      | elapsed:   29.4s
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV] max_features=10, n_estimators=31 ................................
+[CV]  max_features=10, n_estimators=21, score=(train=0.997, test=0.892), total=   0.2s
+[Parallel(n_jobs=-1)]: Done 507 tasks      | elapsed:   29.4s
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV] max_features=10, n_estimators=31 ................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=9, n_estimators=101, score=(train=1.000, test=0.899), total=   1.0s
+[CV]  max_features=10, n_estimators=21, score=(train=1.000, test=0.882), total=   0.2s
+[Parallel(n_jobs=-1)]: Done 508 tasks      | elapsed:   29.5s
+[Parallel(n_jobs=-1)]: Done 509 tasks      | elapsed:   29.5s
+[CV] max_features=10, n_estimators=41 ................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV] max_features=10, n_estimators=41 ................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=10, n_estimators=31, score=(train=1.000, test=0.879), total=   0.3s
+[Parallel(n_jobs=-1)]: Done 510 tasks      | elapsed:   29.7s
+[CV] max_features=10, n_estimators=41 ................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=10, n_estimators=31, score=(train=0.999, test=0.883), total=   0.3s
+[Parallel(n_jobs=-1)]: Done 511 tasks      | elapsed:   29.8s
+[CV] max_features=10, n_estimators=41 ................................
+[CV]  max_features=10, n_estimators=31, score=(train=1.000, test=0.879), total=   0.3s
+[Parallel(n_jobs=-1)]: Done 512 tasks      | elapsed:   29.8s
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV] max_features=10, n_estimators=41 ................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=10, n_estimators=31, score=(train=0.999, test=0.911), total=   0.3s
+[Parallel(n_jobs=-1)]: Done 513 tasks      | elapsed:   29.8s
+[CV] max_features=10, n_estimators=51 ................................
+[CV]  max_features=10, n_estimators=31, score=(train=1.000, test=0.861), total=   0.3s
+[Parallel(n_jobs=-1)]: Done 514 tasks      | elapsed:   29.8s
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV] max_features=10, n_estimators=51 ................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=9, n_estimators=101, score=(train=1.000, test=0.871), total=   1.0s
+[Parallel(n_jobs=-1)]: Done 515 tasks      | elapsed:   29.8s
+[CV] max_features=10, n_estimators=51 ................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=10, n_estimators=41, score=(train=1.000, test=0.873), total=   0.4s
+[Parallel(n_jobs=-1)]: Done 516 tasks      | elapsed:   30.0s
+[CV] max_features=10, n_estimators=51 ................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=10, n_estimators=41, score=(train=0.999, test=0.891), total=   0.4s
+[Parallel(n_jobs=-1)]: Done 517 tasks      | elapsed:   30.0s
+[CV] max_features=10, n_estimators=51 ................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=10, n_estimators=41, score=(train=1.000, test=0.882), total=   0.4s
+[Parallel(n_jobs=-1)]: Done 518 tasks      | elapsed:   30.2s
+[CV] max_features=10, n_estimators=61 ................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=10, n_estimators=41, score=(train=1.000, test=0.899), total=   0.4s
+[Parallel(n_jobs=-1)]: Done 519 tasks      | elapsed:   30.2s
+[CV]  max_features=10, n_estimators=41, score=(train=1.000, test=0.867), total=   0.4s
+[Parallel(n_jobs=-1)]: Done 520 tasks      | elapsed:   30.3s
+[CV] max_features=10, n_estimators=61 ................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV] max_features=10, n_estimators=61 ................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=10, n_estimators=51, score=(train=1.000, test=0.888), total=   0.6s
+[Parallel(n_jobs=-1)]: Done 521 tasks      | elapsed:   30.4s
+[CV]  max_features=10, n_estimators=51, score=(train=1.000, test=0.889), total=   0.6s
+[Parallel(n_jobs=-1)]: Done 522 tasks      | elapsed:   30.4s
+[CV] max_features=10, n_estimators=61 ................................
+[CV] max_features=10, n_estimators=61 ................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=10, n_estimators=51, score=(train=1.000, test=0.882), total=   0.5s
+[Parallel(n_jobs=-1)]: Done 523 tasks      | elapsed:   30.4s
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV] max_features=10, n_estimators=71 ................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=10, n_estimators=51, score=(train=1.000, test=0.899), total=   0.6s
+[Parallel(n_jobs=-1)]: Done 524 tasks      | elapsed:   30.6s
+[CV]  max_features=10, n_estimators=51, score=(train=1.000, test=0.877), total=   0.6s
+[Parallel(n_jobs=-1)]: Done 525 tasks      | elapsed:   30.6s
+[CV] max_features=10, n_estimators=71 ................................
+[CV] max_features=10, n_estimators=71 ................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=10, n_estimators=61, score=(train=1.000, test=0.870), total=   0.7s
+[Parallel(n_jobs=-1)]: Done 526 tasks      | elapsed:   30.9s
+[CV] max_features=10, n_estimators=71 ................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=10, n_estimators=61, score=(train=1.000, test=0.889), total=   0.7s
+[CV]  max_features=10, n_estimators=61, score=(train=1.000, test=0.882), total=   0.7s
+[Parallel(n_jobs=-1)]: Done 527 tasks      | elapsed:   31.0s
+[Parallel(n_jobs=-1)]: Done 528 tasks      | elapsed:   31.0s
+[CV] max_features=10, n_estimators=71 ................................
+[CV] max_features=10, n_estimators=81 ................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=10, n_estimators=61, score=(train=1.000, test=0.896), total=   0.7s
+[Parallel(n_jobs=-1)]: Done 529 tasks      | elapsed:   31.1s
+[CV]  max_features=10, n_estimators=61, score=(train=0.999, test=0.868), total=   0.7s
+[Parallel(n_jobs=-1)]: Done 530 tasks      | elapsed:   31.1s
+[CV] max_features=10, n_estimators=81 ................................
+[CV] max_features=10, n_estimators=81 ................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=10, n_estimators=71, score=(train=1.000, test=0.886), total=   0.8s
+[Parallel(n_jobs=-1)]: Done 531 tasks      | elapsed:   31.3s
+[CV] max_features=10, n_estimators=81 ................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=10, n_estimators=71, score=(train=1.000, test=0.886), total=   0.7s
+[Parallel(n_jobs=-1)]: Done 532 tasks      | elapsed:   31.4s
+[CV] max_features=10, n_estimators=81 ................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=10, n_estimators=71, score=(train=1.000, test=0.886), total=   0.7s
+[Parallel(n_jobs=-1)]: Done 533 tasks      | elapsed:   31.5s
+[CV] max_features=10, n_estimators=91 ................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=10, n_estimators=71, score=(train=1.000, test=0.908), total=   0.8s
+[Parallel(n_jobs=-1)]: Done 534 tasks      | elapsed:   31.8s
+[CV]  max_features=10, n_estimators=71, score=(train=1.000, test=0.874), total=   0.7s
+[CV] max_features=10, n_estimators=91 ................................
+[Parallel(n_jobs=-1)]: Done 535 tasks      | elapsed:   31.8s
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV] max_features=10, n_estimators=91 ................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=10, n_estimators=81, score=(train=1.000, test=0.871), total=   0.8s
+[CV] max_features=10, n_estimators=91 ................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=10, n_estimators=81, score=(train=1.000, test=0.885), total=   0.8s
+[CV]  max_features=10, n_estimators=81, score=(train=1.000, test=0.892), total=   0.8s
+[CV] max_features=10, n_estimators=101 ...............................
+[CV] max_features=10, n_estimators=91 ................................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=10, n_estimators=81, score=(train=1.000, test=0.899), total=   0.8s
+[CV] max_features=10, n_estimators=101 ...............................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=10, n_estimators=81, score=(train=1.000, test=0.861), total=   0.8s
+[CV] max_features=10, n_estimators=101 ...............................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=10, n_estimators=91, score=(train=1.000, test=0.880), total=   0.9s
+[CV] max_features=10, n_estimators=101 ...............................
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=10, n_estimators=91, score=(train=1.000, test=0.888), total=   0.9s
+[CV] max_features=10, n_estimators=101 ...............................
+[CV]  max_features=10, n_estimators=91, score=(train=1.000, test=0.883), total=   0.9s
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_validation.py:531: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X_train, y_train, **fit_params)
+[CV]  max_features=10, n_estimators=91, score=(train=1.000, test=0.898), total=   0.9s
+[CV]  max_features=10, n_estimators=91, score=(train=1.000, test=0.873), total=   0.9s
+[CV]  max_features=10, n_estimators=101, score=(train=1.000, test=0.874), total=   1.0s
+[CV]  max_features=10, n_estimators=101, score=(train=1.000, test=0.885), total=   0.9s
+[Parallel(n_jobs=-1)]: Done 547 out of 550 | elapsed:   33.1s remaining:    0.2s
+[CV]  max_features=10, n_estimators=101, score=(train=1.000, test=0.880), total=   0.9s
+[CV]  max_features=10, n_estimators=101, score=(train=1.000, test=0.901), total=   0.8s
+[CV]  max_features=10, n_estimators=101, score=(train=1.000, test=0.880), total=   0.7s
+[Parallel(n_jobs=-1)]: Done 550 out of 550 | elapsed:   33.5s finished
+/Users/friedrich/opt/anaconda3/envs/mls_lab/lib/python3.7/site-packages/sklearn/model_selection/_search.py:765: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  self.best_estimator_.fit(X, y, **fit_params)
+TA2:1.0,0.8937931034482759
+(mls_lab) 
+# friedrich @ Friedrich-MBP in ~/Projects/GitHub/AMLS_assignment20_21/AMLS_20-21_SN20043715 on git:master x [23:07:09] 
+$ 
