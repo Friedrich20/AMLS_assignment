@@ -6,6 +6,15 @@ This repo serves as the code implementation of the project assigned in the modul
 
 In this project, we are required to tackle two pairs of tasks within the field of computer vision. The first pair of tasks deals with binary classification problem, covering gender detection (Task A1) and emotion detection (Task A2). The next one works on multiclass classification problem, covering face shape recognition (Task B1) and eye color recognition (Task B2) respectively. In this paper, traditional machine learning techniques like support vector machine (SVM) with linear kernel and random forest are involved to solve these image classification problems, along with two face detection approaches known as dlib’s facial landmark detector and Haar feature-based cascade classifier. The usage of these methods combined with a complete feature engineering process gives us good classification performance, where the accuracy score on testing datasets for Task A1 reaches 92.1% and Task A2 as 89.6%. In addition, Convolutional Neural Network (CNN), one of the state-of-the-art deep learning algorithms, has also shown its strong capability on these tasks which achieves the accuracy score of 94.5% to Task B1 and 80.3% to Task B2.
 
+# Results
+
+| Task |   Model   | Train Acc | Val Acc | Test Acc | Elapsed Time |
+| :--: | :-------: | :-------: | :-----: | :------: | :----------: |
+|  A1  | LinearSVM |   93.5%   |  92.1%  |  92.1%   |   00:00:24   |
+|  A2  | LinearSVM |   89.8%   |  88.9%  |  89.6%   |   00:00:16   |
+|  B1  |    CNN    |   98.5%   |  94.4%  |  94.5%   |   00:19:08   |
+|  B2  |    CNN    |   79.2%   |  81.1%  |  80.3%   |   00:15:40   |
+
 # Requirements
 
 - Python 3.7+ (Python 3.7.9 is recommended which is the version used in the development.)
