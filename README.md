@@ -2,6 +2,10 @@
 
 This repo serves as the code implementation of the project assigned in the module Applied Machine Learning Systems ELEC0134.
 
+# Description
+
+In this project, we are required to tackle two pairs of tasks within the field of computer vision. The first pair of tasks deals with binary classification problem, covering gender detection (Task A1) and emotion detection (Task A2). The next one works on multiclass classification problem, cover- ing face shape recognition (Task B1) and eye color recogni- tion (Task B2) respectively. In this paper, traditional ma- chine learning techniques like support vector machine (SVM) with linear kernel and random forest are involved to solve these image classification problems, along with two face detection approaches known as dlib’s facial landmark detector and Haar feature-based cascade classifier. The us- age of these methods combined with a complete feature en- gineering process gives us good classification performance, where the accuracy score on testing datasets for Task A1 reaches 92.1% and Task A2 as 89.6%. In addition, Convolu- tional Neural Network (CNN), one of the state-of-the-art deep learning algorithms, has also shown its strong capabil- ity on these tasks which achieves the accuracy score of 94.5% to Task B1 and 80.3% to Task B2.
+
 # Requirements
 
 - Python 3.7+ (Python 3.7.9 is recommended which is the version used in the development.)
